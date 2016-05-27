@@ -7,7 +7,8 @@ var _dbstaff; // database for staff
 var _dbrooms; // database for rooms
 var _dbbeacons; // database for beacons
 var _tuples; // text lines read from stafflist '.txt' file
-var _jsondata // json documents read from a '.json' file
+var _jsondata; // json documents read from a '.json' file
+// A tip about gloval variables. More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
 
 function initialize(domain, port) {
     _db_domain = domain;
@@ -157,11 +158,25 @@ function loadBeacons() {
     }
 }
 
-function getSequenceNumber(dbname) {
-    if (dbname == "staffdb") {
+function getSequenceNumber(dbname, callback) {
+    if (dbname == "staff") {
         _dbstaff.info().then(function (result) {
-            exports.update_seq = result.update_seq;
+            callback(result.update_seq);
             console.log("update_seq="+result.update_seq);
+        }).catch(function (err) {
+            console.log("error showing info of the database");
+            console.log(err);
+        });
+    } else if (dbname == "rooms") {
+        _dbrooms.info().then(function (result) {
+            callback(result.update_seq);
+        }).catch(function (err) {
+            console.log("error showing info of the database");
+            console.log(err);
+        });
+    } else if (dbname == "beacons") {
+        _dbbeacons.info().then(function (result) {
+            callback(result.update_seq);
         }).catch(function (err) {
             console.log("error showing info of the database");
             console.log(err);
