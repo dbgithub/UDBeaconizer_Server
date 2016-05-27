@@ -1,0 +1,17 @@
+{
+  "couchdb": {
+    "uuid": "49e44982-deb1-459e-8c3e-5f907bff2e12"
+  },
+  "log": {
+    "level": "debug"
+  },
+  "httpd": {
+    "enable_cors": true
+  },
+  "cors": {
+    "origins": "*",
+    "credentials": true,
+    "methods": "GET, PUT, POST, HEAD, DELETE",
+    "headers": "accept, authorization, content-type, origin, referer"
+  }
+}

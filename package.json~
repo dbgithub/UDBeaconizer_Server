@@ -1,0 +1,16 @@
+{
+  "name": "udbeaconizerserve",
+  "version": "1.0.0",
+  "description": "json configuration file for udbeaconizer server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aitor DB",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "level": "^1.4.0"
+  }
+}

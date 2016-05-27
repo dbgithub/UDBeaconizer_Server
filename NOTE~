@@ -1,0 +1,11 @@
+Brief explanations:
+
+· pacakge.json = it describes the node server application. It gives some information of the server and it includes several items in the dependency list which makes node search for it when initializating the server. To create a new one, you can execute: "npm init" command and you follow the wizard.
+
+· index.js = Usually, when making a node server, you would start it with a generic file called "index.js".
+
+· requesthandlers.js, router.js & server.js = all these files have different purposes and each one of them do different things. It's like you divided the server in different layers each one of them performing different tasks. For more info, check Diego Lopez-de-Ipiña's slides about node.js
+
+· node_modules = this folder is created when you execute the command "npm install express --save". You kind of install that requirement in the server. I believe that most of  the files in there can be deleted, just maintain the one you are interested in. When you execute that command with the --save flag activated, then, your package.json will be modified including as dependencies, precisely, the package you are installing at that moment. In the case of the command example, as a dependency, "express" will be added with the corresponding version number.
+
+· To run PouchDB server (database) = yoou have to execute the following command: "sudo pouchdb-server --port 5984" for example. Along with this, you would be able to access the dashboardh through: "http://127.0.0.1:5984/_utils/". Once there, you would be able to do CRUD operations. More info on: "https://github.com/pouchdb/pouchdb-server". As you know, you can create databases with different adapters, as you would do in local. But, remember var db = new PouchDB('./kittens', {db : require('memdown')}); ... ¿?¿?¿?¿??¿
