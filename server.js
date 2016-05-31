@@ -42,7 +42,7 @@ function start(port) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'staff' received!");
 		if (auth == "admin") {
-			ret = new PouchDB('http://'+"localhost"+':'+"5984"+'/staffdb');
+			ret = new PouchDB('http://'+"0.0.0.0"+':'+"5984"+'/staffdb');
 			res.header("Access-Control-Allow-Origin", "*");
 			res.header("Access-Control-Allow-Headers", "X-Requested-With");
 			res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
