@@ -8062,3 +8062,3137 @@ Headers: [{'Accept', application/json},
           {'Content-Type', application/json},
           {'Host', localhost:5984}
 [Thu, 26 May 2016 19:24:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 10:55:33 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5984/
+[Fri, 27 May 2016 10:55:33 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5984/_utils for the Fauxton UI.
+[Fri, 27 May 2016 10:55:40 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:55:40 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:55:40 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:55:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 10:55:40 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:55:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 10:55:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 10:55:40 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:55:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 10:55:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 10:55:40 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:55:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 10:56:04 GMT] [debug] [<0.000.0>] 'GET' /_utils/js/zeroclipboard/ZeroClipboard.swf?noCache=1464346563172 {1,1} from "127.0.0.1"
+Headers: [{'Accept', text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8},
+          {'Accept-Encoding', gzip, deflate},
+          {'Accept-Language', en-US,en;q=0.5},
+          {'Connection', keep-alive},
+          {'Host', 127.0.0.1:5984},
+          {'Referer', http://127.0.0.1:5984/_utils/},
+          {'User-Agent', Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:46.0) Gecko/20100101 Firefox/46.0}
+[Fri, 27 May 2016 10:56:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_utils/js/zeroclipboard/ZeroClipboard.swf?noCache=1464346563172 200
+[Fri, 27 May 2016 10:56:04 GMT] [debug] [<0.000.0>] 'GET' /_all_dbs?_=1464346562960 {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json, text/javascript, */*; q=0.01},
+          {'Accept-Encoding', gzip, deflate},
+          {'Accept-Language', en-US,en;q=0.5},
+          {'Connection', keep-alive},
+          {'Host', 127.0.0.1:5984},
+          {'Referer', http://127.0.0.1:5984/_utils/},
+          {'User-Agent', Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:46.0) Gecko/20100101 Firefox/46.0},
+          {'X-Couchdb-Csrf', true},
+          {'X-Requested-With', XMLHttpRequest}
+[Fri, 27 May 2016 10:56:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_all_dbs?_=1464346562960 200
+[Fri, 27 May 2016 10:57:04 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:57:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 10:57:12 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:57:12 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 10:57:26 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:57:26 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 10:57:28 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 10:57:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:09 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:09 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:09 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:03:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:03:09 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:09 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:09 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:03:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:03:12 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:12 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:24 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:31 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:31 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:31 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:03:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:03:31 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:31 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:31 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:03:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:03:36 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:36 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:43 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:43 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:43 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:03:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:03:43 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:43 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:43 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:03:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:03:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:03:47 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:03:47 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:04:01 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:01 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:01 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:04:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:04:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:04:01 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:01 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:01 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:04:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:04:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:04:03 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:03 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:03 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:04:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:04:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:04:03 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:03 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:03 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:04:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:04:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:04:07 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:04:07 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:05:43 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:05:43 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:05:43 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:05:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:05:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:05:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:05:43 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:05:43 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:05:43 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:05:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:05:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:05:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:05:45 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:05:45 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:06:53 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:53 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:53 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:06:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:06:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:06:53 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:53 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:53 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:06:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:06:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:06:54 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:54 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:54 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:54 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:06:54 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:06:54 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:06:54 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:54 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:54 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:54 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:06:54 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:06:54 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:06:56 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:06:59 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:06:59 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:15 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:15 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:08:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:08:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:15 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:15 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:08:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:08:17 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:23 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:36 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:36 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:36 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:36 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:36 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:08:36 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:08:36 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:36 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:36 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:36 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:36 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:08:36 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:08:37 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:37 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:37 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:37 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:08:37 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:37 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:08:37 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:37 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:37 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:37 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:08:37 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:08:37 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:08:39 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:08:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:05 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:05 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:05 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:16:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:16:05 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:05 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:05 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:16:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:16:08 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:08 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:12 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:12 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:14 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:14 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:14 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:14 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:16 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:18 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:18 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:18 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:16:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:16:18 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:18 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:18 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:16:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:16:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:16:23 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:16:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:25:42 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:25:42 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:25:42 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:25:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:25:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:25:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:25:42 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:25:42 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:25:42 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:25:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:25:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:25:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:26:07 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:26:07 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:26:07 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:26:07 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:26:07 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:26:07 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:26:07 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:26:07 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:26:07 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:26:07 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:26:07 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:26:07 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:26:10 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:26:10 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:23 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:23 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:23 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:27:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:27:23 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:23 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:23 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:27:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:27:24 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:24 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:24 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:27:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:27:24 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:24 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:24 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:27:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:27:27 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:31 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:36 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:36 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:37 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:37 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:40 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:40 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:40 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:27:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:27:40 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:40 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:40 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:27:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:27:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:27:42 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:27:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:16 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:16 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:16 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:28:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:28:16 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:16 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:16 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:28:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:28:17 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:17 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:17 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:28:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:28:17 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:17 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:17 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:28:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:28:19 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:19 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:26 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:26 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:26 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:26 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:26 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:28:26 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:28:26 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:26 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:26 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:26 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:26 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:28:26 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:28:27 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:27 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:27 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:28:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:28:27 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:27 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:27 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:28:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:28:29 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:28:37 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:28:37 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:14 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:14 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:14 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:14 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:14 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:14 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:14 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:14 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:14 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:14 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:14 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:14 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:15 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:15 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:15 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:15 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:17 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:21 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:21 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:21 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:21 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:21 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:21 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:24 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:39 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:39 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:39 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:39 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:39 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:39 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:41 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:43 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:44 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:44 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:44 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:44 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:45 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:45 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:46 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:47 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:47 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:49 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:49 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:49 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:49 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:49 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:49 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:49 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:49 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:49 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:49 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:33:49 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:33:49 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:33:51 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:33:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:15 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:15 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:56:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:56:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:15 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:15 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:56:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:56:16 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:16 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:16 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:56:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:56:16 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:16 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:16 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 11:56:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 11:56:22 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:22 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:43 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:53 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:54 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:54 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:56 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 11:56:58 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 11:56:58 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 12:13:13 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 12:13:13 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 12:19:08 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 12:19:08 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 12:19:26 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 12:19:26 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 16:32:26 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5984/
+[Fri, 27 May 2016 16:32:26 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5984/_utils for the Fauxton UI.
+[Fri, 27 May 2016 16:32:43 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 16:32:43 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 16:32:43 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 16:32:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 16:32:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 16:32:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 16:32:43 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 16:32:43 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 16:32:43 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 16:32:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 16:32:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 16:32:43 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:02:06 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:02:06 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:02:06 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:02:06 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:02:06 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:02:06 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:02:06 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:02:06 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:02:06 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:02:06 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:02:06 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:02:06 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:03:51 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:03:51 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:03:51 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:03:51 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:03:51 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:03:51 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:03:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:03:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:03:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:18:20 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:18:20 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:18:20 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:18:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:18:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:18:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:18:20 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:18:20 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:18:20 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:18:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:18:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:18:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:19:46 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:19:46 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:19:46 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:19:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:19:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:19:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:19:46 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:19:46 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:19:46 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:19:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:19:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:19:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:20:50 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:20:50 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:20:50 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:20:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:20:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:20:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:20:50 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:20:50 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:20:50 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:20:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:20:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:20:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:33:55 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:33:55 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:33:55 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:33:55 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:33:55 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:33:55 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:33:55 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:33:55 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:33:55 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:33:55 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:33:55 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:33:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:39:20 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:39:20 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:39:20 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:39:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:39:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:39:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:39:20 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:39:20 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:39:20 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:39:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:39:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:39:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:41:05 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:41:05 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:41:05 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:41:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:41:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:41:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:41:05 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:41:05 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:41:05 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:41:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:41:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:41:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:42:27 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:42:27 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:42:27 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:42:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:42:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:42:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:42:27 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:42:27 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:42:27 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:42:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:42:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:42:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:52:38 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:52:38 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:52:38 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:52:38 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:52:38 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:52:38 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:52:38 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:52:38 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:52:38 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:52:38 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:52:38 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:52:38 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:53:20 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:53:20 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:53:20 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:53:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:53:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:53:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:53:20 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:53:20 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:53:20 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:53:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:53:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:53:20 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:54:04 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:04 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:04 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:54:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:54:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:54:04 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:04 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:04 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:54:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:54:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:54:46 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:46 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:46 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:54:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:54:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:54:46 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:46 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:46 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:54:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:54:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:54:46 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:56:42 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:56:42 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:56:42 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:56:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:56:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:56:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:56:42 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:56:42 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:56:42 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:56:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:56:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:56:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:57:42 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:57:42 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:57:42 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:57:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:57:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:57:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:57:42 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:57:42 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:57:42 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:57:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:57:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:57:42 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:58:33 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:58:33 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:58:33 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:58:33 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:58:33 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:58:33 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:58:33 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:58:33 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:58:33 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:58:33 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:58:33 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:58:33 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:59:18 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:59:18 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:59:18 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:59:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:59:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:59:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 18:59:18 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:59:18 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:59:18 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 18:59:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 18:59:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 18:59:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:03:51 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:03:51 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:03:51 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:03:51 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:03:51 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:03:51 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:03:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:05:39 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:05:39 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:05:39 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:05:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:05:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:05:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:05:39 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:05:39 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:05:39 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:05:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:05:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:05:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:07:09 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:09 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:09 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:07:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:07:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:07:09 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:09 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:09 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:07:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:07:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:07:30 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:30 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:30 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:07:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:07:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:07:31 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:31 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:31 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:07:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:07:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:07:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:10:50 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:10:50 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:10:50 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:10:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:10:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:10:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:10:50 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:10:50 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:10:50 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:10:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:10:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:10:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:11:41 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:11:41 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:11:41 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:11:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:11:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:11:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:11:41 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:11:41 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:11:41 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:11:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:11:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:11:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:12:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:15 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:15 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:12:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:12:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:12:15 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:15 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:15 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:12:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:12:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:12:41 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:41 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:41 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:12:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:12:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:12:41 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:41 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:41 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:12:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:12:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:12:41 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:13:08 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:13:08 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:13:08 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:13:08 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:13:08 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:13:08 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Fri, 27 May 2016 19:13:08 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:13:08 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:13:08 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Fri, 27 May 2016 19:13:08 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Fri, 27 May 2016 19:13:08 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Fri, 27 May 2016 19:13:08 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:07:27 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5984/
+[Sat, 28 May 2016 08:07:27 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5984/_utils for the Fauxton UI.
+[Sat, 28 May 2016 08:07:29 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:07:29 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:07:29 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:07:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:07:29 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:07:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:07:29 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:07:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:07:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:07:29 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:07:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:07:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:15:01 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:15:01 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:15:01 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:15:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:15:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:15:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:15:01 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:15:01 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:15:01 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:15:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:15:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:15:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:18:00 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:18:00 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:18:00 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:18:00 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:18:00 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:18:00 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:18:00 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:18:00 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:18:00 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:18:00 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:18:00 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:18:00 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:19:52 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:19:52 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:19:52 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:19:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:19:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:19:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:19:52 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:19:52 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:19:52 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:19:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:19:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:19:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:21:34 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:21:34 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:21:34 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:21:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:21:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:21:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:21:34 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:21:34 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:21:34 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:21:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:21:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:21:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:22:28 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:22:28 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:22:28 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:22:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:22:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:22:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:22:28 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:22:28 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:22:28 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:22:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:22:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:22:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:29:39 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:29:39 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:29:39 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:29:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:29:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:29:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:29:39 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:29:39 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:29:39 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:29:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:29:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:29:39 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:30:56 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:30:56 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:30:56 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:30:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:30:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:30:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:30:56 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:30:56 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:30:56 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:30:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:30:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:30:56 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:31:29 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:31:29 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:31:29 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:31:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:31:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:31:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:31:29 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:31:29 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:31:29 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:31:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:31:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:31:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:34:21 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:34:21 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:34:21 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:34:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:34:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:34:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:34:21 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:34:21 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:34:21 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:34:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:34:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:34:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:35:22 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:35:22 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:35:22 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:35:22 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:35:22 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:35:22 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:35:22 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:35:22 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:35:22 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:35:22 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:35:22 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:35:22 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:40:48 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:40:48 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:40:48 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:40:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:40:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:40:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:40:48 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:40:48 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:40:48 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:40:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:40:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:40:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:41:48 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:41:48 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:41:48 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:41:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:41:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:41:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:41:48 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:41:48 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:41:48 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:41:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:41:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:41:48 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:46:27 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:46:27 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:46:27 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:46:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:46:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:46:27 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:46:27 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:46:27 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:46:27 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:46:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:46:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:46:28 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:58:40 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:58:40 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:58:40 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:58:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:58:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:58:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 08:58:40 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:58:40 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:58:40 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 08:58:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 08:58:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 08:58:40 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:26:05 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:26:05 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:26:05 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:26:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:26:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:26:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:26:05 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:26:05 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:26:05 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:26:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:26:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:26:05 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:30:34 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:30:34 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:30:34 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:30:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:30:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:30:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:30:34 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:30:34 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:30:34 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:30:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:30:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:30:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:31:09 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:31:09 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:31:09 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:31:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:31:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:31:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:31:09 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:31:09 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:31:09 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:31:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:31:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:31:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:32:35 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:32:35 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:32:35 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:32:35 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:32:35 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:32:35 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:32:35 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:32:35 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:32:35 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:32:35 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:32:35 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:32:35 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:34:01 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:34:02 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:34:02 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:34:02 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:34:02 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:34:02 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:34:02 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:34:02 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:34:02 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:34:02 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:34:02 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:34:02 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:42:24 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:42:24 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:42:24 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Sat, 28 May 2016 09:42:24 GMT] [debug] [<0.000.0>] 'GET' /staffdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:42:24 GMT] [debug] [<0.000.0>] 'GET' /roomsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:42:24 GMT] [debug] [<0.000.0>] 'GET' /beaconsdb/ {1,1} from "127.0.0.1"
+Headers: [{'Accept', application/json},
+          {'Connection', close},
+          {'Content-Type', application/json},
+          {'Host', localhost:5984}
+[Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
+[Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
+[Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
