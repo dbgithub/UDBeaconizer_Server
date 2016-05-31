@@ -11196,3 +11196,5 @@ Headers: [{'Accept', application/json},
 [Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /staffdb/ 200
 [Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /roomsdb/ 200
 [Sat, 28 May 2016 09:42:24 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /beaconsdb/ 200
+[Tue, 31 May 2016 15:28:47 GMT] [info] [<0.000.0>] pouchdb-server has started on http://0.0.0.0:5984/
+[Tue, 31 May 2016 15:28:47 GMT] [info] [<0.000.0>] navigate to http://0.0.0.0:5984/_utils for the Fauxton UI.
