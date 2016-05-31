@@ -8,6 +8,18 @@ function start(port) {
 	app.use(cors({credentials: true, origin: '*'}));
 	console.log("Express app created");
 
+	app.use('/maps', express.static('data/img'));
+	// Extra code. Old code to possibly read images:
+	// 'data' is what has been read from 'fs.readFile()'
+	// res.writeHead(200, {'Content-Type': 'image/png'}); // Esto no lo llegue nunca a utilizar podria ser una posibilidad.
+	// buf_str = new Buffer.from(data).toString('base64');
+	// res.end(buf_str, "base64"); // Send the image file back to client-side.
+	// More info about working with buffers:
+	// https://nodejs.org/api/buffer.html
+	// https://docs.nodejitsu.com/articles/advanced/buffers/how-to-use-buffers/
+	// More info about RESPONSE objects:
+	// http://www.tutorialspoint.com/nodejs/nodejs_response_object.htm
+
 	app.get('/', function (req, res) {
 		console.log("HelloWorld!");
 		res.send('HelloWorld!');
@@ -39,31 +51,47 @@ function start(port) {
 		}
 	});
 
+	// localhost:8080/staff/version?auth=admin
 	app.get('/staff/version', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'staff/version' received!");
 		if (auth == "admin") {
-			// var db = new PouchDB('http://'+"localhost"+':'+"5984"+'/staffdb');
-			db_manager.getSequenceNumber("staffdb");
-			setTimeout(function(){
-				console.log("value="+db_manager.update_seq);
-				res.send(db_manager.update_seq);
-			},10)
+			db_manager.getSequenceNumber("staff", function (value) {
+				console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
+				res.end(value);
+			});
 		}
 	});
 
-	// localhost:port/maps?auth=admin
-	app.get('/maps', function(req, res) {
+	// localhost:8080/rooms/version?auth=admin
+	app.get('/rooms/version', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
+		console.log("Request 'rooms/version' received!");
+		if (auth == "admin") {
+			db_manager.getSequenceNumber("rooms", function (value) {
+				console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
+				res.send(value);
+			});
+		}
+	});
 
-		res.send("hello?");
+	// localhost:8080/beacons/version?auth=admin
+	app.get('/beacons/version', function(req, res) {
+		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
+		console.log("Request 'beacons/version' received!");
+		if (auth == "admin") {
+			db_manager.getSequenceNumber("beacons", function (value) {
+				console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
+				res.send(value);
+			});
+		}
 	});
 
 	app.listen(port, function () {
 		console.log("Server has started. Example app listening on port "+port+"!");
 	});
-
 }
+
 exports.start = start;
 
 //////////////////////////////////////////////
