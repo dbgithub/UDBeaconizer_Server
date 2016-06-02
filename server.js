@@ -58,7 +58,7 @@ function start(port) {
 		if (auth == "admin") {
 			db_manager.getSequenceNumber("staff", function (value) {
 				console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
-				res.end(value);
+				res.send(value.toString());
 			});
 		}
 	});
