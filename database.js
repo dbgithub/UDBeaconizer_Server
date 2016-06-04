@@ -186,8 +186,8 @@ function getSequenceNumber(dbname, callback) {
 
 function getMapVersion(floor, callback) {
     _dbrooms.get(floor).then(function (doc) {
-        console.log("doc.map.version (remote)="+doc.map.version);
-        callback(doc.map.version);
+        console.log("doc.map.version (remote)="+doc.map.v);
+        callback(doc.map.v);
     }).catch(function (err) {
         console.log("error retrieving version of the map");
         console.log(err);
