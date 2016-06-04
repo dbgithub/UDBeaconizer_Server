@@ -87,12 +87,12 @@ function start(port) {
 		}
 	});
 
-	// localhost:8080/rooms/version?auth=admin
+	// localhost:8080/rooms/mapversion/2?auth=admin
 	app.get('/rooms/mapversion/:v', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'rooms/mapversion' received!");
 		if (auth == "admin") {
-			var floor = req.param.v;
+			var floor = req.params.v;
 			db_manager.getMapVersion(floor.toString(), function (value) {
 				console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
 				res.send(value.toString());
