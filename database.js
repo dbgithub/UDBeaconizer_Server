@@ -184,6 +184,16 @@ function getSequenceNumber(dbname, callback) {
     }
 }
 
+function getMapVersion(floor, callback) {
+    _dbrooms.get(floor).then(function (doc) {
+        console.log("doc.map.version (remote)="+doc.map.version);
+        callback(doc.map.version);
+    }).catch(function (err) {
+        console.log("error retrieving version of the map");
+        console.log(err);
+    });
+}
+
 // Shows databse info
 function DBinfo(db) {
     db.info().then(function (result) {
