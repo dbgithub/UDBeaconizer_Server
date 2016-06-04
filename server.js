@@ -70,7 +70,7 @@ function start(port) {
 		if (auth == "admin") {
 			db_manager.getSequenceNumber("rooms", function (value) {
 				console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
-				res.send(value);
+				res.send(value.toString());
 			});
 		}
 	});
@@ -82,7 +82,7 @@ function start(port) {
 		if (auth == "admin") {
 			db_manager.getSequenceNumber("beacons", function (value) {
 				console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
-				res.send(value);
+				res.send(value.toString());
 			});
 		}
 	});
