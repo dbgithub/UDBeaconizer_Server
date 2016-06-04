@@ -213,3 +213,4 @@ function DBinfo(db) {
 
 exports.initialize = initialize;
 exports.getSequenceNumber = getSequenceNumber;
+exports.getMapVersion = getMapVersion;
