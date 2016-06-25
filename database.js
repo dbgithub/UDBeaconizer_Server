@@ -158,6 +158,9 @@ function loadBeacons() {
     }
 }
 
+// This funtion returns the "update_seq" value that corresponds to the version of the last changes of the database.
+// "update_seq" indicates the total number of updates and inserts that were performed in the database.
+// For each update of any of the documents and if new additions are done, this is represented in the "update_seq" variable.
 function getSequenceNumber(dbname, callback) {
     if (dbname == "staff") {
         _dbstaff.info().then(function (result) {
@@ -184,10 +187,13 @@ function getSequenceNumber(dbname, callback) {
     }
 }
 
+// This function return the version number of the map.
+// The purpose is to see whether it is necessary to updated the image in client-side.
+// The returned value corresponds to the field in the room.json within the map object.
 function getMapVersion(floor, callback) {
-    _dbrooms.get(floor).then(function (doc) {
-        console.log("doc.map.version (remote)="+doc.map.v);
-        callback(doc.map.v);
+    _dbrooms.get("map"+floor).then(function (doc) {
+        console.log("doc.version (remote)="+doc.v);
+        callback(doc.v);
     }).catch(function (err) {
         console.log("error retrieving version of the map");
         console.log(err);

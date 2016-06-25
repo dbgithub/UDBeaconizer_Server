@@ -24,11 +24,6 @@ function start(port) {
 		console.log("HelloWorld!");
 		res.send('HelloWorld!');
 	});
-	// Prueba con /beaconizer (to delete)
-        app.get('/beaconizer', function (req, res) {
-                console.log("HelloWorld! (/beaconizer)");
-                res.send('HelloWorld! (/beaconizer)');
-        });
 
 	// localhost:port/rooms?auth=admin
 	app.get('/rooms', function(req, res) {
