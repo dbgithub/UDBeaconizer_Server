@@ -1,11 +1,9 @@
 var express = require('express');
 var PouchDB = require('pouchdb');
 var db_manager = require("./database");
-var cors = require('cors'); // Esto no parece que influya
 
 function start(port) {
 	var app = express();
-	app.use(cors({credentials: true, origin: '*'}));
 	console.log("Express app created");
 
 	app.use('/maps', express.static('data/img'));
@@ -43,10 +41,6 @@ function start(port) {
 		console.log("Request 'staff' received!");
 		if (auth == "admin") {
 			ret = new PouchDB('http://'+"0.0.0.0"+':'+"5984"+'/staffdb');
-			res.header("Access-Control-Allow-Origin", "*");
-			res.header("Access-Control-Allow-Headers", "X-Requested-With");
-			res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-
 			res.send(ret);
 		}
 	});
