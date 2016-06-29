@@ -1,9 +1,11 @@
 var express = require('express');
 var PouchDB = require('pouchdb');
 var db_manager = require("./database");
+var cors = require('cors');
 
 function start(port) {
 	var app = express();
+	app.use(cors({credentials: true, origin: '*'}));
 	console.log("Express app created");
 
 	app.use('/maps', express.static('data/img'));
