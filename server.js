@@ -1,11 +1,11 @@
 var express = require('express');
 var PouchDB = require('pouchdb');
 var db_manager = require("./database");
-var cors = require('cors');
+var cors = require('cors'); // More info about configuring CORS: https://www.npmjs.com/package/cors
 
 function start(port) {
 	var app = express();
-	app.use(cors({credentials: true, origin: '*'}));
+	app.use(cors({credentials: true, origin: '*', methods: 'GET'})); // Here, CORS is being configured
 	console.log("Express app created");
 
 	app.use('/maps', express.static('data/img'));
