@@ -5,7 +5,7 @@ var cors = require('cors'); // More info about configuring CORS: https://www.npm
 
 function start(port) {
 	var app = express();
-	app.use(cors({credentials: true, origin: '*', methods: 'GET'})); // Here, CORS is being configured
+	app.use(cors({credentials: true, origin: '*'})); // Here, CORS is being configured
 	console.log("Express app created");
 
 	app.use('/maps', express.static('data/img'));
