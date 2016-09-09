@@ -126,7 +126,7 @@ function loadStaff() {
             notes: "notes...", // This is an example, it should be removed and let teachers add it by themselves
             dtech: temp[8] // This is an example, it should be removed and let teachers add it by themselves
         }).then(function (response) {
-            // console.log("Correctly added STAFF document: " + response.id);
+            console.log("Correctly added STAFF document: " + response.id);
         }).catch(function (err) {
             console.log("error loading staff list:");
             console.log(err);
