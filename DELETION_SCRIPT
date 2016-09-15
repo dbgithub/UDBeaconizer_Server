@@ -6,5 +6,4 @@ sudo rm _replicator -r
 sudo rm _users -r
 sudo rm log.txt -r
 sudo rm config.json -r
-sudo rm nohup.out -r
 sudo rm nohup_errors_log -r
