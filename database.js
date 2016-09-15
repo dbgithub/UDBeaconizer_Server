@@ -108,9 +108,15 @@ function loadStaff() {
     var dt;
     for (i = 0; i < _tuples.length; i++) {
         temp = _tuples[i].split("|");
-        console.log(temp[8]);
-        console.log(typeof temp[8]);
-        dt = ((temp[8] == "true") ? true : false);
+        if (temp[0] == "Aitor de Blas Granja") {
+            console.log(temp[0]);
+            console.log(temp[8]);
+            console.log(typeof temp[8]);
+            console.log(temp[8] == "true");
+            console.log(temp[8] === "true");
+            console.log(temp[8] == true);
+            dt = ((temp[8] == "true") ? true : false);
+        }
         _dbstaff.put({
             _id: temp[0].toLowerCase(), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
             name: temp[0],
