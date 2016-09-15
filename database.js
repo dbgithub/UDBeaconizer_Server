@@ -141,7 +141,7 @@ function loadStaff() {
         }).then(function (response) {
             // console.log("Correctly added STAFF document: " + response.id);
         }).catch(function (err) {
-            console.log("error loading staff list ("+i+"):");
+            console.log("error loading staff list (i="+i+"):");
             console.log(err);
         });
     }
