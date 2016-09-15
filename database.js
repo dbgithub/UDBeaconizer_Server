@@ -124,7 +124,7 @@ function loadStaff() {
             website: "www.example.deusto.es", // This is an example, it should be removed and let teachers add it by themselves
             linkedin: "www.linkedin.deusto.com", // This is an example, it should be removed and let teachers add it by themselves
             notes: "notes...", // This is an example, it should be removed and let teachers add it by themselves
-            dtech: temp[8] == "true" // We are saving a pure Boolean instead of a string representing a boolean. '===' checks equality and type.
+            dtech: (temp[8] == "true") // We are saving a pure Boolean instead of a string representing a boolean. '===' checks equality and type.
         }).then(function (response) {
             console.log("Correctly added STAFF document: " + response.id);
         }).catch(function (err) {
