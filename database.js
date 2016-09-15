@@ -105,8 +105,10 @@ function readJsonFile(file, loadData) {
 // This function saves the staff data in the database as JSON documents
 function loadStaff() {
     var temp;
+    var dt;
     for (i = 0; i < _tuples.length; i++) {
         temp = _tuples[i].split("|");
+        dt = ((temp[8] == "true") ? true : false);
         _dbstaff.put({
             _id: temp[0].toLowerCase(), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
             name: temp[0],
@@ -124,7 +126,7 @@ function loadStaff() {
             website: "www.example.deusto.es", // This is an example, it should be removed and let teachers add it by themselves
             linkedin: "www.linkedin.deusto.com", // This is an example, it should be removed and let teachers add it by themselves
             notes: "notes...", // This is an example, it should be removed and let teachers add it by themselves
-            dtech: ((temp[8] == true) ? true : false) // We are saving a pure Boolean instead of a string representing a boolean. '===' checks equality and type.
+            dtech: dt // We are saving a pure Boolean instead of a string representing a boolean. '===' checks equality and type.
         }).then(function (response) {
             console.log("Correctly added STAFF document: " + response.id);
         }).catch(function (err) {
