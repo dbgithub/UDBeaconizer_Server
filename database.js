@@ -108,6 +108,8 @@ function loadStaff() {
     var dt;
     for (i = 0; i < _tuples.length; i++) {
         temp = _tuples[i].split("|");
+        console.log(temp[8]);
+        console.log(typeof temp[8]);
         dt = ((temp[8] == "true") ? true : false);
         _dbstaff.put({
             _id: temp[0].toLowerCase(), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
@@ -128,7 +130,7 @@ function loadStaff() {
             notes: "notes...", // This is an example, it should be removed and let teachers add it by themselves
             dtech: dt // We are saving a pure Boolean instead of a string representing a boolean. '===' checks equality and type.
         }).then(function (response) {
-            console.log("Correctly added STAFF document: " + response.id);
+            // console.log("Correctly added STAFF document: " + response.id);
         }).catch(function (err) {
             console.log("error loading staff list:");
             console.log(err);
