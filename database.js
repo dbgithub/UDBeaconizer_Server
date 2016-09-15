@@ -112,10 +112,13 @@ function loadStaff() {
             console.log(temp[0]);
             console.log(temp[8]);
             console.log(typeof temp[8]);
-            console.log(temp[8].toString() == "true");
-            console.log(temp[8].toString() === "true");
+            console.log(temp[8] == 'true');
+            console.log(temp[8] === 'true');
+            console.log(temp[8] == true);
+            console.log(temp[8].toString() == 'true');
+            console.log(temp[8].toString() === 'true');
             console.log(temp[8].toString() == true);
-            dt = ((temp[8] == "true") ? true : false);
+            dt = temp[8];
         }
         _dbstaff.put({
             _id: temp[0].toLowerCase(), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
@@ -138,7 +141,7 @@ function loadStaff() {
         }).then(function (response) {
             // console.log("Correctly added STAFF document: " + response.id);
         }).catch(function (err) {
-            console.log("error loading staff list ("+temp[0]+"):");
+            console.log("error loading staff list ("+i+"):");
             console.log(err);
         });
     }
