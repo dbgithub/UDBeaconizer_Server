@@ -107,7 +107,6 @@ function loadStaff() {
     var temp;
     for (i = 0; i < _tuples.length; i++) {
         temp = _tuples[i].split("|");
-        console.log("i="+i+" | temp[8]="+ temp[8]);
         _dbstaff.put({
             _id: temp[0].toLowerCase(), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
             name: temp[0],
@@ -128,7 +127,7 @@ function loadStaff() {
             dtech: temp[8].trim() === "true" // We are saving a pure Boolean instead of a string representing a boolean. '===' checks equality and type, thus, resulting in a real boolean, not a string.
                                                 // We use 'trim' because is the last item/word of the sentence and it tends to pick up invisible (unwanted) characters, something that corrupts the JSON file somehow.
         }).then(function (response) {
-            // console.log("Correctly added STAFF document: " + response.id);
+            console.log("Correctly added STAFF document: " + response.id);
         }).catch(function (err) {
             console.log("error loading staff list (i="+i+"):");
             console.log(err);
