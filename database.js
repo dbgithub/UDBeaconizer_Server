@@ -113,8 +113,8 @@ function loadStaff() {
             console.log(temp[8]);
             console.log(typeof temp[8]);
             console.log(temp[8].replace(/^[truefalse]/g, "") == 'true');
-            console.log(temp[8].replace(/^[truefalse]/g, "") == 'true') === 'true');
-            console.log(temp[8].replace(/^[truefalse]/g, "") == 'true') == true);
+            console.log(temp[8].replace(/^[truefalse]/g, "") === 'true');
+            console.log(temp[8].replace(/^[truefalse]/g, "") == true);
             dt = temp[8];
         }
         _dbstaff.put({
