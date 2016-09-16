@@ -108,15 +108,15 @@ function loadStaff() {
     var dt;
     for (i = 0; i < _tuples.length; i++) {
         temp = _tuples[i].split("|");
-        if (temp[0] == "Aitor de Blas Granja") {
-            console.log(temp[0]);
-            console.log(temp[8]);
-            console.log(typeof temp[8]);
-            console.log(temp[8].trim() == 'true');
-            console.log(temp[8].trim() === 'true');
-            console.log(temp[8].trim() == true);
-            dt = temp[8];
-        }
+        // if (temp[0] == "Aitor de Blas Granja") {
+        //     console.log(temp[0]);
+        //     console.log(temp[8]);
+        //     console.log(typeof temp[8]);
+        //     console.log(temp[8].trim() == 'true');
+        //     console.log(temp[8].trim() === 'true');
+        //     console.log(temp[8].trim() == true);
+        //     dt = temp[8];
+        // }
         _dbstaff.put({
             _id: temp[0].toLowerCase(), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
             name: temp[0],
@@ -134,7 +134,8 @@ function loadStaff() {
             website: "www.example.deusto.es", // This is an example, it should be removed and let teachers add it by themselves
             linkedin: "www.linkedin.deusto.com", // This is an example, it should be removed and let teachers add it by themselves
             notes: "notes...", // This is an example, it should be removed and let teachers add it by themselves
-            dtech: dt // We are saving a pure Boolean instead of a string representing a boolean. '===' checks equality and type.
+            dtech: (temp[8].trim() === "true") // We are saving a pure Boolean instead of a string representing a boolean. '===' checks equality and type, thus, resulting in a real boolean, not a string.
+                                                // We use 'trim' because is the last item/word of the sentence and it tends to pick up invisible (unwanted) characters, something that corrupts the JSON file somehow.
         }).then(function (response) {
             // console.log("Correctly added STAFF document: " + response.id);
         }).catch(function (err) {
