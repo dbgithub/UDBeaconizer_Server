@@ -109,14 +109,14 @@ function loadStaff() {
         temp = _tuples[i].split("|");
         _dbstaff.put({
             _id: temp[0].toLowerCase(), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
-            name: temp[0],
-            position: temp[1],
-            faculty: temp[2],
-            email: temp[3],
-            extension: temp[4],
-            phone: temp[5],
-            fax: temp[6],
-            office: temp[7],
+            name: (temp[0].trim() == "") ? null : temp[0],
+            position: (temp[1].trim() == "") ? null : temp[1],
+            faculty: (temp[2].trim() == "") ? null : temp[2],
+            email: (temp[3].trim() == "") ? null : temp[3],
+            extension: (temp[4].trim() == "") ? null : temp[4],
+            phone: (temp[5].trim() == "") ? null : temp[5],
+            fax: (temp[6].trim() == "") ? null : temp[6],
+            office: (temp[7].trim() == "") ? null : temp[7],
             officehours: [
                 {"start": "10:00", "end":"12:00"}, // This is an example, it should be removed and let teachers add it by themselves
                 {"start": "16:00", "end":"18:00"} // This is an example, it should be removed and let teachers add it by themselves
