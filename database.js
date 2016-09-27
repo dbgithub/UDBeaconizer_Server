@@ -6,6 +6,7 @@ var _db_port; // // database port
 var _dbstaff; // database for staff
 var _dbrooms; // database for rooms
 var _dbbeacons; // database for beacons
+var _dbchanges; // database for information changes
 var _tuples; // text lines read from stafflist '.txt' file
 var _jsondata; // json documents read from a '.json' file
 // A tip about gloval variables. More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
@@ -16,10 +17,12 @@ function initialize(domain, port) {
     // Fetching the databases or creatin them for the first time:
     createDB("staff"); // This call creates the database for the firt time, reads staff list and loads the data into the database
                        // If it is not the first time, the database is just fetched
-    createDB("rooms"); // This call creates the database for the firt time, reads staff list and loads the data into the database
+    createDB("rooms"); // This call creates the database for the firt time, reads rooms list and loads the data into the database
                        // If it is not the first time, the database is just fetched
-    createDB("beacons"); // This call creates the database for the firt time, reads staff list and loads the data into the database
+    createDB("beacons"); // This call creates the database for the firt time, reads beacons JSON document and loads the data into the database
                         // If it is not the first time, the database is just fetched
+    createDB("changes"); // This call creates the database for the first time. It does not read anything becasue at the begining of time there
+                        // are not changes recorded. As soon as people start chaning or editing content, JSON documents will be added.
     // DBinfo(_dbstaff);
     // DBinfo(_dbrooms);
     // DBinfo(_dbbeacons);
@@ -60,6 +63,8 @@ function createDB(whichDB) {
             console.log("error getting info about database:");
             console.log(err);
         });
+    } else if (whichDB === "changes") {
+        _dbchanges = new PouchDB('http://'+_db_domain+':'+_db_port+'/changesdb'); // Fetching or creating the database for beacons.
     }
 }
 
