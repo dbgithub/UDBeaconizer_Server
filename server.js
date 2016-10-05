@@ -1,5 +1,7 @@
 var express = require('express');
 var PouchDB = require('pouchdb');
+var bodyParser = require('body-parser');
+var db_manager = require("./database");
 var db_manager = require("./database");
 var cors = require('cors'); // More info about configuring CORS: https://www.npmjs.com/package/cors
 
@@ -7,6 +9,9 @@ function start(port) {
 	var app = express();
 	app.use(cors({credentials: true, origin: '*'})); // Here, CORS is being configured
 	console.log("Express app created");
+
+	app.use(bodyParser.json()); // support json encoded bodies
+	app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 	app.use('/maps', express.static('data/img'));
 	// Extra code. Old code to possibly read images:
@@ -94,6 +99,19 @@ function start(port) {
 				res.send(value.toString());
 			});
 		}
+	});
+
+	// localhost:8080/editcontact?auth=admin
+	// localhost:8080/editcontact
+	app.post('/editcontact', function(req, res) {
+		// var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
+		console.log("Request 'editcontact' received!");
+		// if (auth == "admin") {
+			// db_manager.getSequenceNumber("beacons", function (value) {
+			// 	console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
+			res.send("mensaje recibido:"+req.body);
+			// });
+		// }
 	});
 
 	app.listen(port, function () {
