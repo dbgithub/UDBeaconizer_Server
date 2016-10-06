@@ -2,7 +2,6 @@ var express = require('express');
 var PouchDB = require('pouchdb');
 var bodyParser = require('body-parser');
 var db_manager = require("./database");
-var db_manager = require("./database");
 var cors = require('cors'); // More info about configuring CORS: https://www.npmjs.com/package/cors
 
 function start(port) {

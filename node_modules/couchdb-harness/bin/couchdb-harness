@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+"use strict";
+
+var args    = require('optimist').argv,
+    addr    = args.a || null,
+    port    = args.p || null,
+    bail    = args.b || null,
+    tests   = args._ || null,
+    colors  = require('colors/safe'),
+    harness = require('..');
+
+harness.run(addr || port, {tests: tests, bail: bail}, function (exitCode) {
+  var msg = '\nFinal result: ';
+  if (exitCode) {
+    msg = colors.red(msg + "FAIL!");
+  } else {
+    msg = colors.green(msg + "PASS!");
+  }
+  console.log(msg);
+  process.exit(exitCode);
+});
