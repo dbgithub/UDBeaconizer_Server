@@ -1,6 +1,6 @@
 var express = require('express');
 var PouchDB = require('pouchdb');
-var bodyParser = require('body-parser');
+var bodyParser = require('body-parser'); // More info about body-parser: https://scotch.io/tutorials/use-expressjs-to-get-url-and-post-parameters
 var db_manager = require("./database");
 var cors = require('cors'); // More info about configuring CORS: https://www.npmjs.com/package/cors
 
@@ -100,11 +100,11 @@ function start(port) {
 		}
 	});
 
-	// localhost:8080/editcontact?auth=admin
 	// localhost:8080/editcontact
 	app.post('/editcontact', function(req, res) {
-		// var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
+		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'editcontact' received!");
+		console.log("auth existe?? = " + auth);
 		// if (auth == "admin") {
 			// db_manager.getSequenceNumber("beacons", function (value) {
 			// 	console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
