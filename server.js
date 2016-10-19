@@ -3,6 +3,7 @@ var PouchDB = require('pouchdb');
 var bodyParser = require('body-parser'); // More info about body-parser: https://scotch.io/tutorials/use-expressjs-to-get-url-and-post-parameters
 var db_manager = require("./database");
 var cors = require('cors'); // More info about configuring CORS: https://www.npmjs.com/package/cors
+const https = require('https'); // More info about HTTPS requests (POST, GET) at: https://nodejs.org/api/https.html#https_https_get_options_callback
 
 function start(port) {
 	var app = express();
@@ -100,21 +101,60 @@ function start(port) {
 		}
 	});
 
-	// localhost:8080/editcontact
+	// localhost:8080/editcontact?auth=admin
 	app.post('/editcontact', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'editcontact' received!");
-		console.log("auth existe?? = " + auth);
-		// if (auth == "admin") {
-			// db_manager.getSequenceNumber("beacons", function (value) {
-			// 	console.log("value="+value); // More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
-			res.send("mensaje recibido:"+req.body);
-			// });
-		// }
+		if (auth == "admin") {
+			// Firstly, we verify the identity of the user:
+			authenticateuser(req.body[0]);
+			//  changes_dictionary['officehours'] Object (in server side: req.body.officehours[x]) we will have rows with any of the following possible content:
+		    // · Useful information regarding 'officehours', e.g '23','00','14','15'
+		    // · undefined -> This corresponds to the rows that were not changed by the user but were loaded at the begining (info coming from the DB)
+		    // · NULL -> This corresponds to the rows that were intentionally deleted by the user
+		    // Remember that (http://www.w3schools.com/js/js_datatypes.asp):
+		    // null === undefined -> false
+		    // null == null -> true
+		    // null == undefined -> true !!
+
+			// Now, we save the changes done on a contact:
+			// req.body[0] = this is the ID token of the signed in user.
+			// req.body[1] = this is the changes dictionary where all the new changes are recorded
+			// req.body[2] = this is the data structure representing the contact (name, faculty, email...)
+			// In summary, the NEW and the OLD data.
+			// db_manager.putEditedContact(req.body[1], req.body[2]);
+			res.end() // no data to send back
+		}
 	});
 
 	app.listen(port, function () {
 		console.log("Server has started. Example app listening on port "+port+"!");
+	});
+}
+
+// This function authenticates the user by means of ID Token. The whole process is explained here:
+// https://developers.google.com/identity/sign-in/web/backend-auth
+// In short, the ID token is used to authenticate, because is not secure (nor good practise) sending the user ID (in which I'm interested) to the backend.
+function authenticateuser(idtoken) {
+	var options = {
+		hostname: 'googleapis.com/oauth2/v3/tokeninfo',
+		port: 443,
+		path: '?id_token='+idtoken,
+		method: 'POST'
+	};
+
+	var req = https.request(options, (res) => {
+		console.log('statusCode:', res.statusCode);
+		console.log('headers:', res.headers);
+
+		res.on('data', (d) => {
+			process.stdout.write(d);
+		});
+	});
+	req.end();
+
+	req.on('error', (e) => {
+		console.error(e);
 	});
 }
 
