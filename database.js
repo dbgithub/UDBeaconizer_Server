@@ -226,10 +226,10 @@ function putEditedContact(changes, person) {
         userid: null,
         timestamp: Date().toString(), // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
         changes: [
-            for(var property in changes) {
-                console.log(property);
-                console.log(changes[property]);
-            }
+            // for(var property in changes) {
+            //     console.log(property);
+            //     console.log(changes[property]);
+            // }
             {
                 before: {"position":"decano"},
                 after: {"position":"vicedecano"}

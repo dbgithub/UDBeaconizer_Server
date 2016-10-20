@@ -4,6 +4,7 @@ var bodyParser = require('body-parser'); // More info about body-parser: https:/
 var db_manager = require("./database");
 var cors = require('cors'); // More info about configuring CORS: https://www.npmjs.com/package/cors
 const https = require('https'); // More info about HTTPS requests (POST, GET) at: https://nodejs.org/api/https.html#https_https_get_options_callback
+var _webClientID = '473073684258-jss0qgver3lio3cmjka9g71ratesqckr.apps.googleusercontent.com'; // This is a client ID created in Google's Developer page as a credential. This one is for WEB applications.
 
 function start(port) {
 	var app = express();
@@ -137,23 +138,23 @@ function start(port) {
 // In short, the ID token is used to authenticate, because is not secure (nor good practise) sending the user ID (in which I'm interested) to the backend.
 function authenticateuser(idtoken) {
 	var options = {
-		hostname: 'googleapis.com/oauth2/v3/tokeninfo',
+		hostname: 'www.googleapis.com',
 		port: 443,
-		path: '?id_token='+idtoken,
+		path: '/oauth2/v3/tokeninfo?id_token='+idtoken.toString(),
 		method: 'POST'
 	};
 
 	var req = https.request(options, (res) => {
-		console.log('statusCode:', res.statusCode);
-		console.log('headers:', res.headers);
-
+		// console.log('statusCode:', res.statusCode);
+		// console.log('headers:', res.headers);
 		res.on('data', (d) => {
 			process.stdout.write(d);
 		});
 	});
 	req.end();
-
+	console.log("HOla? Esto se ejecuta???");
 	req.on('error', (e) => {
+		console.log("Error on 'authenticateuser', POST query:");
 		console.error(e);
 	});
 }
