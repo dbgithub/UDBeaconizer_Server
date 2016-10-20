@@ -217,13 +217,13 @@ function getMapVersion(floor, callback) {
 // null === undefined -> false
 // null == null -> true
 // null == undefined -> true !!
-function putEditedContact(changes, person) {
+function putEditedContact(idtoken, signedInUser, changes, person) {
     var d = new Date();
     _dbchanges.put({
         _id: d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear(), // e.g. 05/10/2016
-        name: null,
-        email: null,
-        userid: null,
+        name: signedInUser.name,
+        email: signedInUser.email,
+        userid: signedInUser.sub,
         timestamp: Date().toString(), // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
         changes: [
             // for(var property in changes) {
@@ -241,6 +241,7 @@ function putEditedContact(changes, person) {
         ]
     }).then(function (response) {
         console.log("Correctly added EDITED contact document: " + response.id);
+        server.freeUpuser(idtoken); // Since we don't need anymore the user's details, we remve it from server.js to free up memory.
     }).catch(function (err) {
         console.log("error inserting an edited contact");
         console.log(err);
@@ -266,3 +267,4 @@ function DBinfo(db) {
 exports.initialize = initialize;
 exports.getSequenceNumber = getSequenceNumber;
 exports.getMapVersion = getMapVersion;
+exports.putEditedContact = putEditedContact;

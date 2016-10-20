@@ -4,7 +4,9 @@ var bodyParser = require('body-parser'); // More info about body-parser: https:/
 var db_manager = require("./database");
 var cors = require('cors'); // More info about configuring CORS: https://www.npmjs.com/package/cors
 const https = require('https'); // More info about HTTPS requests (POST, GET) at: https://nodejs.org/api/https.html#https_https_get_options_callback
-var _webClientID = '473073684258-jss0qgver3lio3cmjka9g71ratesqckr.apps.googleusercontent.com'; // This is a client ID created in Google's Developer page as a credential. This one is for WEB applications.
+const _webClientID = '473073684258-jss0qgver3lio3cmjka9g71ratesqckr.apps.googleusercontent.com'; // This is a client ID created in Google's Developer page as a credential. This one is for WEB applications.
+var _signedInUsers = {}; // This is a Javascript object representing the user just signed in. It's actually the JSON response given by Google's servers containing information about the account and the application's WebClientID. More info at: https://developers.google.com/identity/sign-in/web/backend-auth
+
 
 function start(port) {
 	var app = express();
@@ -123,7 +125,11 @@ function start(port) {
 			// req.body[1] = this is the changes dictionary where all the new changes are recorded
 			// req.body[2] = this is the data structure representing the contact (name, faculty, email...)
 			// In summary, the NEW and the OLD data.
-			// db_manager.putEditedContact(req.body[1], req.body[2]);
+			if(_signedInUsers[req.body[0]] != undefined) {
+				// This conditional statement means the authentication was successful
+				// The parameters we are passing are: IDtoken, the user's Google account (with all details), the changes done in the contact page of the app and finally, the contact's original data in the app.
+				db_manager.putEditedContact(req.body[0], _signedInUsers[req.body[0]],req.body[1], req.body[2]);
+			}
 			res.end() // no data to send back
 		}
 	});
@@ -136,6 +142,7 @@ function start(port) {
 // This function authenticates the user by means of ID Token. The whole process is explained here:
 // https://developers.google.com/identity/sign-in/web/backend-auth
 // In short, the ID token is used to authenticate, because is not secure (nor good practise) sending the user ID (in which I'm interested) to the backend.
+// The token ID is from the user who has just signed in. This token is intended to navigate Internet without problems, the propper/standard way of doing things is verifying the token agains Google's servers and retrieve User's information on server side.
 function authenticateuser(idtoken) {
 	var options = {
 		hostname: 'www.googleapis.com',
@@ -144,22 +151,38 @@ function authenticateuser(idtoken) {
 		method: 'POST'
 	};
 
+	// More info about the request at: https://nodejs.org/api/https.html#https_https_get_options_callback
 	var req = https.request(options, (res) => {
-		// console.log('statusCode:', res.statusCode);
+		console.log('statusCode:', res.statusCode);
 		// console.log('headers:', res.headers);
 		res.on('data', (d) => {
-			process.stdout.write(d);
+			// process.stdout.write(d);
+			if (d.aud == _webClientID) {
+				// Authentication success
+				_signedInUsers[idtoken] = d; // We save the Object containing the information of the user in this Dictionary
+				// Fields cointained in 'd':
+				// - iss, sub, azp, aud, iat, exp
+				// And the user's information:
+				// - email, email_verified, name, picture, given_name, family_name and locale
+			}
 		});
 	});
 	req.end();
-	console.log("HOla? Esto se ejecuta???");
 	req.on('error', (e) => {
 		console.log("Error on 'authenticateuser', POST query:");
 		console.error(e);
 	});
 }
 
+// This method is used to remove the ID token of the user who has commited changes
+// More info at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Deleting_properties
+// and: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
+function freeUpuser(idtoken) {
+	delete _signedInUsers[idtoken];
+}
+
 exports.start = start;
+exports.freeUpuser = freeUpuser;
 
 //////////////////////////////////////////////
 // More info about setting up a node.js server + express module:
