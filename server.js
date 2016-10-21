@@ -7,7 +7,6 @@ const https = require('https'); // More info about HTTPS requests (POST, GET) at
 const _webClientID = '473073684258-jss0qgver3lio3cmjka9g71ratesqckr.apps.googleusercontent.com'; // This is a client ID created in Google's Developer page as a credential. This one is for WEB applications.
 var _signedInUsers = {}; // This is a Javascript object representing the user just signed in. It's actually the JSON response given by Google's servers containing information about the account and the application's WebClientID. More info at: https://developers.google.com/identity/sign-in/web/backend-auth
 
-
 function start(port) {
 	var app = express();
 	app.use(cors({credentials: true, origin: '*'})); // Here, CORS is being configured
@@ -153,13 +152,13 @@ function authenticateuser(idtoken) {
 
 	// More info about the request at: https://nodejs.org/api/https.html#https_https_get_options_callback
 	var req = https.request(options, (res) => {
-		console.log('statusCode:', res.statusCode);
+		// console.log('statusCode:', res.statusCode);
 		// console.log('headers:', res.headers);
 		res.on('data', (d) => {
 			// process.stdout.write(d);
 			if (d.aud == _webClientID) {
 				// Authentication success
-				_signedInUsers[idtoken] = d; // We save the Object containing the information of the user in this Dictionary
+				_signedInUsers[idtoken] = JSON.parse(d); // We save the Object containing the information of the user in this Dictionary
 				// Fields cointained in 'd':
 				// - iss, sub, azp, aud, iat, exp
 				// And the user's information:

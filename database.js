@@ -1,5 +1,6 @@
 var PouchDB = require('pouchdb'); // PouchDB module. It allows us to work with PouchDB databases
 var fs = require('fs'); // file system module. It allows us to work with local directories
+var server = require('server.js') // a variable to access methods from 'server.js' file
 // GLOBAL VARIABLES:
 var _db_domain; // database domain
 var _db_port; // // database port
