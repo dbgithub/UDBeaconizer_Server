@@ -1,6 +1,6 @@
 var PouchDB = require('pouchdb'); // PouchDB module. It allows us to work with PouchDB databases
 var fs = require('fs'); // file system module. It allows us to work with local directories
-var server = require('server.js') // a variable to access methods from 'server.js' file
+var server = require('./server') // a variable to access methods from 'server.js' file
 // GLOBAL VARIABLES:
 var _db_domain; // database domain
 var _db_port; // // database port
@@ -227,10 +227,6 @@ function putEditedContact(idtoken, signedInUser, changes, person) {
         userid: signedInUser.sub,
         timestamp: Date().toString(), // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
         changes: [
-            // for(var property in changes) {
-            //     console.log(property);
-            //     console.log(changes[property]);
-            // }
             {
                 before: {"position":"decano"},
                 after: {"position":"vicedecano"}

@@ -109,7 +109,18 @@ function start(port) {
 		console.log("Request 'editcontact' received!");
 		if (auth == "admin") {
 			// Firstly, we verify the identity of the user:
-			authenticateuser(req.body[0]);
+			authenticateuser(req.body[0], function() {
+				// Now, we save the changes done on a contact:
+				// req.body[0] = this is the ID token of the signed in user.
+				// req.body[1] = this is the changes dictionary where all the new changes are recorded
+				// req.body[2] = this is the data structure representing the contact (name, faculty, email...)
+				// In summary, the NEW and the OLD data.
+				if(_signedInUsers[req.body[0]] != undefined) {
+					// This conditional statement means the authentication was successful
+					// The parameters we are passing are: IDtoken, the user's Google account (with all details), the changes done in the contact page of the app and finally, the contact's original data in the app.
+					db_manager.putEditedContact(req.body[0], _signedInUsers[req.body[0]],req.body[1], req.body[2]);
+				}
+			});
 			//  changes_dictionary['officehours'] Object (in server side: req.body.officehours[x]) we will have rows with any of the following possible content:
 		    // · Useful information regarding 'officehours', e.g '23','00','14','15'
 		    // · undefined -> This corresponds to the rows that were not changed by the user but were loaded at the begining (info coming from the DB)
@@ -118,17 +129,6 @@ function start(port) {
 		    // null === undefined -> false
 		    // null == null -> true
 		    // null == undefined -> true !!
-
-			// Now, we save the changes done on a contact:
-			// req.body[0] = this is the ID token of the signed in user.
-			// req.body[1] = this is the changes dictionary where all the new changes are recorded
-			// req.body[2] = this is the data structure representing the contact (name, faculty, email...)
-			// In summary, the NEW and the OLD data.
-			if(_signedInUsers[req.body[0]] != undefined) {
-				// This conditional statement means the authentication was successful
-				// The parameters we are passing are: IDtoken, the user's Google account (with all details), the changes done in the contact page of the app and finally, the contact's original data in the app.
-				db_manager.putEditedContact(req.body[0], _signedInUsers[req.body[0]],req.body[1], req.body[2]);
-			}
 			res.end() // no data to send back
 		}
 	});
@@ -142,7 +142,7 @@ function start(port) {
 // https://developers.google.com/identity/sign-in/web/backend-auth
 // In short, the ID token is used to authenticate, because is not secure (nor good practise) sending the user ID (in which I'm interested) to the backend.
 // The token ID is from the user who has just signed in. This token is intended to navigate Internet without problems, the propper/standard way of doing things is verifying the token agains Google's servers and retrieve User's information on server side.
-function authenticateuser(idtoken) {
+function authenticateuser(idtoken, callback) {
 	var options = {
 		hostname: 'www.googleapis.com',
 		port: 443,
@@ -156,13 +156,15 @@ function authenticateuser(idtoken) {
 		// console.log('headers:', res.headers);
 		res.on('data', (d) => {
 			// process.stdout.write(d);
+			d = JSON.parse(d);
 			if (d.aud == _webClientID) {
 				// Authentication success
-				_signedInUsers[idtoken] = JSON.parse(d); // We save the Object containing the information of the user in this Dictionary
+				_signedInUsers[idtoken] = d; // We save the Object containing the information of the user in this Dictionary
 				// Fields cointained in 'd':
 				// - iss, sub, azp, aud, iat, exp
 				// And the user's information:
 				// - email, email_verified, name, picture, given_name, family_name and locale
+				callback();
 			}
 		});
 	});
@@ -177,7 +179,10 @@ function authenticateuser(idtoken) {
 // More info at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Deleting_properties
 // and: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
 function freeUpuser(idtoken) {
+	console.log("BEFORE deleting idtoken from dictionary: " + _signedInUsers[idtoken]);
 	delete _signedInUsers[idtoken];
+	console.log("AFTER deleting idtoken from dictionary: " + _signedInUsers[idtoken]);
+
 }
 
 exports.start = start;
