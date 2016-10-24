@@ -109,16 +109,16 @@ function start(port) {
 		console.log("Request 'editcontact' received!");
 		if (auth == "admin") {
 			// Firstly, we verify the identity of the user:
-			var resul = authenticateuser(req.body[0], function() {
+			// req.body[0] = this is the ID token of the signed in user.
+			var resul = authenticateuser(req.body[0], function(signedinuser) {
 				// Now, we save the changes done on a contact:
-				// req.body[0] = this is the ID token of the signed in user.
 				// req.body[1] = this is the changes dictionary where all the new changes are recorded
 				// req.body[2] = this is the data structure representing the contact (name, faculty, email...)
 				// In summary, the NEW and the OLD data.
-				if(_signedInUsers[req.body[0]] != undefined) {
+				if(signedinuser != undefined) {
 					// This conditional statement means the authentication was successful
 					// The parameters we are passing are: IDtoken, the user's Google account (with all details), the changes done in the contact page of the app and finally, the contact's original data in the app.
-					db_manager.putEditedContact(req.body[0], _signedInUsers[req.body[0]],req.body[1], req.body[2]);
+					db_manager.putEditedContact(signedinuser,req.body[1], req.body[2]);
 				}
 			});
 			if (resul != null) {
@@ -166,12 +166,11 @@ function authenticateuser(idtoken, callback) {
 			d = JSON.parse(d);
 			if (d.aud == _webClientID) {
 				// Authentication success
-				_signedInUsers[idtoken] = d; // We save the Object containing the information of the user in this Dictionary
+				callback(d);
 				// Fields cointained in 'd':
 				// - iss, sub, azp, aud, iat, exp
 				// And the user's information:
 				// - email, email_verified, name, picture, given_name, family_name and locale
-				callback();
 			}
 		});
 	});

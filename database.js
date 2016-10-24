@@ -209,7 +209,7 @@ function getMapVersion(floor, callback) {
 
 // This functions inserts/puts a record in the 'Changes' database regarding a change made on a certain contact.
 // The information stored is: name, email and userid of the user who is performing the changes, plus the timestamp and an array of changes
-// with the BEFORE and AFTER statements, so that we know what changes have been made. The "_id" is the date of the change.
+// with the BEFORE and AFTER statements, so that we know what changes have been made. The "_id" is the date of the change plus something else.
 //  changes_dictionary['officehours'] Object (in server side: req.body[1].officehours[x]) we will have rows with any of the following possible content:
 // · Useful information regarding 'officehours', e.g '23','00','14','15'
 // · undefined -> This corresponds to the rows that were not changed by the user but were loaded at the begining (info coming from the DB)
@@ -218,8 +218,9 @@ function getMapVersion(floor, callback) {
 // null === undefined -> false
 // null == null -> true
 // null == undefined -> true !!
-function putEditedContact(idtoken, signedInUser, changes, person) {
+function putEditedContact(signedInUser, changes, person) {
     var d = new Date();
+    for ()
     _dbchanges.put({
         _id: d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear(), // e.g. 05/10/2016
         name: signedInUser.name,
@@ -228,8 +229,8 @@ function putEditedContact(idtoken, signedInUser, changes, person) {
         timestamp: Date().toString(), // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
         changes: [
             {
-                before: {"position":"decano"},
-                after: {"position":"vicedecano"}
+                "before: {position:decano},"
+                "after: {position:vicedecano}"
             },
             {
                 before: {"email":"dec@ano"},
@@ -238,7 +239,6 @@ function putEditedContact(idtoken, signedInUser, changes, person) {
         ]
     }).then(function (response) {
         console.log("Correctly added EDITED contact document: " + response.id);
-        server.freeUpuser(idtoken); // Since we don't need anymore the user's details, we remve it from server.js to free up memory.
     }).catch(function (err) {
         console.log("error inserting an edited contact");
         console.log(err);
