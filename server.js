@@ -5,7 +5,6 @@ var db_manager = require("./database");
 var cors = require('cors'); // More info about configuring CORS: https://www.npmjs.com/package/cors
 const https = require('https'); // More info about HTTPS requests (POST, GET) at: https://nodejs.org/api/https.html#https_https_get_options_callback
 const _webClientID = '473073684258-jss0qgver3lio3cmjka9g71ratesqckr.apps.googleusercontent.com'; // This is a client ID created in Google's Developer page as a credential. This one is for WEB applications.
-var _signedInUsers = {}; // This is a Javascript object representing the user just signed in. It's actually the JSON response given by Google's servers containing information about the account and the application's WebClientID. More info at: https://developers.google.com/identity/sign-in/web/backend-auth
 
 function start(port) {
 	var app = express();
@@ -180,13 +179,6 @@ function authenticateuser(idtoken, callback) {
 		console.error(e);
 	});
 	return null;
-}
-
-// This method is used to remove the ID token of the user who has commited changes
-// More info at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Deleting_properties
-// and: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
-function freeUpuser(idtoken) {
-	delete _signedInUsers[idtoken];
 }
 
 exports.start = start;
