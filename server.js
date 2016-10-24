@@ -109,7 +109,7 @@ function start(port) {
 		console.log("Request 'editcontact' received!");
 		if (auth == "admin") {
 			// Firstly, we verify the identity of the user:
-			authenticateuser(req.body[0], function() {
+			var resul = authenticateuser(req.body[0], function() {
 				// Now, we save the changes done on a contact:
 				// req.body[0] = this is the ID token of the signed in user.
 				// req.body[1] = this is the changes dictionary where all the new changes are recorded
@@ -121,6 +121,9 @@ function start(port) {
 					db_manager.putEditedContact(req.body[0], _signedInUsers[req.body[0]],req.body[1], req.body[2]);
 				}
 			});
+			if (resul != null) {
+				res.status(resul).end();
+			}
 			//  changes_dictionary['officehours'] Object (in server side: req.body.officehours[x]) we will have rows with any of the following possible content:
 		    // · Useful information regarding 'officehours', e.g '23','00','14','15'
 		    // · undefined -> This corresponds to the rows that were not changed by the user but were loaded at the begining (info coming from the DB)
@@ -152,7 +155,11 @@ function authenticateuser(idtoken, callback) {
 
 	// More info about the request at: https://nodejs.org/api/https.html#https_https_get_options_callback
 	var req = https.request(options, (res) => {
-		// console.log('statusCode:', res.statusCode);
+		console.log('statusCode:', res.statusCode);
+		if (res.statusCode.toString().startsWith("4")) {
+			req.end();
+			return res.statusCode;
+		}
 		// console.log('headers:', res.headers);
 		res.on('data', (d) => {
 			// process.stdout.write(d);
@@ -173,16 +180,14 @@ function authenticateuser(idtoken, callback) {
 		console.log("Error on 'authenticateuser', POST query:");
 		console.error(e);
 	});
+	return null;
 }
 
 // This method is used to remove the ID token of the user who has commited changes
 // More info at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Deleting_properties
 // and: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
 function freeUpuser(idtoken) {
-	console.log("BEFORE deleting idtoken from dictionary: " + _signedInUsers[idtoken]);
 	delete _signedInUsers[idtoken];
-	console.log("AFTER deleting idtoken from dictionary: " + _signedInUsers[idtoken]);
-
 }
 
 exports.start = start;
