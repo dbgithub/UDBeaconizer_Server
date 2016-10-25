@@ -96,7 +96,7 @@ function readStaffFile(file, loadStaff) {
 }
 
 // This function reads a JSON file from local files:
-function readJsonFile(file, loadData) {
+function readJsonFile(file, callback) {
     fs.readFile('./'+file, 'utf8', function (err,data) {
         if (err) {
             console.log("error reading json file:");
@@ -104,7 +104,7 @@ function readJsonFile(file, loadData) {
         }
         _jsondata = JSON.parse(data); // Parse means going from JSON to javascript object
         // Heads up, the values you can store with JSON can be any of these: http://www.w3schools.com/json/json_syntax.asp
-        loadData(); // Now we load the data into the database
+        callback(); // Now we load the data into the database
     });
 }
 
@@ -220,29 +220,50 @@ function getMapVersion(floor, callback) {
 // null == undefined -> true !!
 function putEditedContact(signedInUser, changes, person) {
     var d = new Date();
-    for ()
-    _dbchanges.put({
-        _id: d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear(), // e.g. 05/10/2016
-        name: signedInUser.name,
-        email: signedInUser.email,
-        userid: signedInUser.sub,
-        timestamp: Date().toString(), // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
-        changes: [
-            {
-                "before: {position:decano},"
-                "after: {position:vicedecano}"
-            },
-            {
-                before: {"email":"dec@ano"},
-                after: {"email":"viced@ecano"}
+    var dstr = d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear() + "/" + d.getHours()+":"+d.getMinutes()+":"+d.getSeconds(), // e.g. 05/10/2016/11:30:46
+    // var countProperties = Object.keys(changes).length; // This variable counts the amount of properties that 'changes' Object has.
+    // var i = 1; // an index used to know when not to add a comma at the end of the for loop
+    var changesstr; // This is the JSON string part that goes within the main JSON string
+
+    // This for will fill up the 'before' and 'after' array of changes.
+    for (prop in changes) {
+        changesstr = changesstr +
+        if (prop != "officehours") { // prop is the name of the Object's property, it is NOT an index.
+            '{' +
+            '"before": {"'+prop+'":"'+person[prop]+'"},' + // e.g. "before":{"email":"hola@prueba.com"}
+            '"after": {"'+prop+'":"'+changes[prop]+'"},' + // e.g. "after":{"email":"hello@prueba2.com"}
+            '},'
+        } else {
+            // Now we iterate the array of officehours:
+            for (prop2 in changes.officehours) { // prop2 is an index in this context
+                if (changes.officehours[prop2] == undefined && changes.officehours[prop2] != null) {continue;}
+                '{' +
+                '"before": {"'+prop+prop2+'":"'+person.officehours[prop2]+'"},' + // e.g. "before":{"officehours0":"10,12,13,16"}
+                '"after": {"'+prop+prop2+'":"'+changes.officehours[prop2]+'"},' + // e.g. "after":{"officehours0":"11,13,15,17"}
+                '},'
             }
-        ]
-    }).then(function (response) {
-        console.log("Correctly added EDITED contact document: " + response.id);
-    }).catch(function (err) {
-        console.log("error inserting an edited contact");
-        console.log(err);
-    });
+        }
+        // + (i < countProperties ) ? "," : "";
+        // i++;
+    }
+    changesstr = changesstr.slice(0, -1); // Here, we are removing the last comma added to the string, it is not necessary because there are not more JSON objects following.
+    // This JSON represents the document to add to the database
+    console.log(changesstr);
+    console.log(JSON.parse(changesstr));
+    // var json = '{' +
+    // '"_id":"'+ signedInUser.email + '__' + dstr + '",' +
+    // '"name:""'+ signedInUser.name + '",' +
+    // '"email:""'+ signedInUser.email + '",' +
+    // '"userid:""'+ signedInUser.sub + '",' +
+    // '"timestamp:""'+ Date().toString() + '",' + // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
+    // '"changes":['+ changesstr+ ']'+
+    // '}';
+    // _dbchanges.put(JSON.parse(json)).then(function (response) {
+    //     console.log("Correctly added EDITED contact document: " + response.id);
+    // }).catch(function (err) {
+    //     console.log("error inserting an edited contact");
+    //     console.log(err);
+    // });
 }
 // Shows databse info
 function DBinfo(db) {
