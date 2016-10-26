@@ -182,7 +182,6 @@ function authenticateuser(idtoken, callback) {
 }
 
 exports.start = start;
-exports.freeUpuser = freeUpuser;
 
 //////////////////////////////////////////////
 // More info about setting up a node.js server + express module:

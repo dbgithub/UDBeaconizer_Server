@@ -220,16 +220,15 @@ function getMapVersion(floor, callback) {
 // null == undefined -> true !!
 function putEditedContact(signedInUser, changes, person) {
     var d = new Date();
-    var dstr = d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear() + "/" + d.getHours()+":"+d.getMinutes()+":"+d.getSeconds(), // e.g. 05/10/2016/11:30:46
+    var dstr = d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear() + "/" + d.getHours()+":"+d.getMinutes()+":"+d.getSeconds(); // e.g. 05/10/2016/11:30:46
     // var countProperties = Object.keys(changes).length; // This variable counts the amount of properties that 'changes' Object has.
     // var i = 1; // an index used to know when not to add a comma at the end of the for loop
     var changesstr; // This is the JSON string part that goes within the main JSON string
 
     // This for will fill up the 'before' and 'after' array of changes.
     for (prop in changes) {
-        changesstr = changesstr +
         if (prop != "officehours") { // prop is the name of the Object's property, it is NOT an index.
-            '{' +
+            changesstr = changesstr + '{' +
             '"before": {"'+prop+'":"'+person[prop]+'"},' + // e.g. "before":{"email":"hola@prueba.com"}
             '"after": {"'+prop+'":"'+changes[prop]+'"},' + // e.g. "after":{"email":"hello@prueba2.com"}
             '},'
@@ -237,7 +236,7 @@ function putEditedContact(signedInUser, changes, person) {
             // Now we iterate the array of officehours:
             for (prop2 in changes.officehours) { // prop2 is an index in this context
                 if (changes.officehours[prop2] == undefined && changes.officehours[prop2] != null) {continue;}
-                '{' +
+                changesstr = changesstr + '{' +
                 '"before": {"'+prop+prop2+'":"'+person.officehours[prop2]+'"},' + // e.g. "before":{"officehours0":"10,12,13,16"}
                 '"after": {"'+prop+prop2+'":"'+changes.officehours[prop2]+'"},' + // e.g. "after":{"officehours0":"11,13,15,17"}
                 '},'
