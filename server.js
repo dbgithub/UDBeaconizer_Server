@@ -154,6 +154,8 @@ function authenticateuser(idtoken, callback) {
 
 	// More info about the request at: https://nodejs.org/api/https.html#https_https_get_options_callback
 	var req = https.request(options, (res) => {
+		// Now, we're checking whether the request was done successfuly or there was an Internet connection problem.
+		// If status code is 4xx, then we end the request and send the status code back to the client side.
 		console.log('statusCode:', res.statusCode);
 		if (res.statusCode.toString().startsWith("4")) {
 			req.end();
@@ -161,7 +163,7 @@ function authenticateuser(idtoken, callback) {
 		}
 		// console.log('headers:', res.headers);
 		res.on('data', (d) => {
-			// process.stdout.write(d);
+			// process.stdout.write(d); // prints the data in the console
 			d = JSON.parse(d);
 			if (d.aud == _webClientID) {
 				// Authentication success

@@ -124,8 +124,8 @@ function loadStaff() {
             fax: (temp[6].trim() == "") ? null : temp[6],
             office: (temp[7].trim() == "") ? null : temp[7],
             officehours: [
-                {"start": "10:00", "end":"12:00"}, // This is an example, it should be removed and let teachers add it by themselves
-                {"start": "16:00", "end":"18:00"} // This is an example, it should be removed and let teachers add it by themselves
+                "09,00,10,00", // This is an example (it means: 9:00 - 10:00), it should be removed and let teachers add it by themselves
+                "16,00,18,00" // This is an example (it means: 9:00 - 10:00), it should be removed and let teachers add it by themselves
             ],
             website: "www.example.deusto.es", // This is an example, it should be removed and let teachers add it by themselves
             linkedin: "www.linkedin.deusto.com", // This is an example, it should be removed and let teachers add it by themselves
@@ -221,18 +221,11 @@ function getMapVersion(floor, callback) {
 function putEditedContact(signedInUser, changes, person) {
     var d = new Date();
     var dstr = d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear() + "/" + d.getHours()+":"+d.getMinutes()+":"+d.getSeconds(); // e.g. 05/10/2016/11:30:46
-    // var countProperties = Object.keys(changes).length; // This variable counts the amount of properties that 'changes' Object has.
-    // var i = 1; // an index used to know when not to add a comma at the end of the for loop
     var changesstr = ""; // This is the JSON string part that goes within the main JSON string
 
     // This for will fill up the 'before' and 'after' array of changes.
     for (prop in changes) {
-        if (prop != "officehours") { // prop is the name of the Object's property, it is NOT an index.
-            changesstr = changesstr + '{' +
-            '"before": {"'+prop+'":"'+person[prop]+'"},' + // e.g. "before":{"email":"hola@prueba.com"}
-            '"after": {"'+prop+'":"'+changes[prop]+'"}' + // e.g. "after":{"email":"hello@prueba2.com"}
-            '},';
-        } else {
+        if (prop == "officehours") { // prop is the name of the Object's property, it is NOT an index.
             // Now we iterate the array of officehours:
             for (prop2 in changes.officehours) { // prop2 is an index in this context
                 if (changes.officehours[prop2] == undefined && changes.officehours[prop2] != null) {continue;}
@@ -241,28 +234,40 @@ function putEditedContact(signedInUser, changes, person) {
                 '"after": {"'+prop+prop2+'":"'+changes.officehours[prop2]+'"}' + // e.g. "after":{"officehours0":"11,13,15,17"}
                 '},';
             }
+        } else if (prop == "deustotech") { // The purpose of this 'if' clausure is to ensure we save a real boolean value instead of a string
+            changesstr = changesstr + '{' +
+            '"before": {"'+prop+'":'+ (person[prop] == "true") +'},' + // e.g. "before":{"deustotech":true}
+            '"after": {"'+prop+'":'+ (person[prop] == "true") +'}' + // e.g. "after":{"deustotech":false}
+            '},';
+        } else { // This clausure (statement) is for the rest of the elements
+            changesstr = changesstr + '{' +
+            '"before": {"'+prop+'":"'+person[prop]+'"},' + // e.g. "before":{"email":"hola@prueba.com"}
+            '"after": {"'+prop+'":"'+changes[prop]+'"}' + // e.g. "after":{"email":"hello@prueba2.com"}
+            '},';
         }
-        // + (i < countProperties ) ? "," : "";
-        // i++;
     }
+    // Just as an aside note, here we show a list of possible values for 'prop' index.
+    // The values are directly captured from the DOM of the client side.
+    // name, position, faculty, office, email, phone, extension, fax, website, linkedin, deustotech,
+    // notes, officehours
     changesstr = changesstr.slice(0, -1); // Here, we are removing the last comma added to the string, it is not necessary because there are not more JSON objects following.
+
     // This JSON represents the document to add to the database
-    console.log(changesstr);
     var json = '{' +
     '"_id":"'+ signedInUser.email + '__' + dstr + '",' +
-    '"name:""'+ signedInUser.name + '",' +
-    '"email:""'+ signedInUser.email + '",' +
-    '"userid:""'+ signedInUser.sub + '",' +
-    '"timestamp:""'+ Date().toString() + '",' + // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
+    '"name":"'+ signedInUser.name + '",' +
+    '"email":"'+ signedInUser.email + '",' +
+    '"userid":"'+ signedInUser.sub + '",' +
+    '"timestamp":"'+ Date().toString() + '",' + // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
     '"changes":['+ changesstr+ ']'+
     '}';
-    console.log(json);
-    // _dbchanges.put(JSON.parse(json)).then(function (response) {
-    //     console.log("Correctly added EDITED contact document: " + response.id);
-    // }).catch(function (err) {
-    //     console.log("error inserting an edited contact");
-    //     console.log(err);
-    // });
+
+    _dbchanges.put(JSON.parse(json)).then(function (response) {
+        console.log("Correctly added EDITED contact document: " + response.id);
+    }).catch(function (err) {
+        console.log("error inserting an edited contact");
+        console.log(err);
+    });
 }
 // Shows databse info
 function DBinfo(db) {

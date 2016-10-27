@@ -1,6 +1,7 @@
 sudo rm beaconsdb -r
 sudo rm staffdb -r
 sudo rm roomsdb -r
+sudo rm changesdb -r
 sudo rm pouch__all_dbs__ -r
 sudo rm _replicator -r
 sudo rm _users -r
