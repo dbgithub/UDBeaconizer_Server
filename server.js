@@ -117,21 +117,15 @@ function start(port) {
 				if(signedinuser != undefined) {
 					// This conditional statement means the authentication was successful
 					// The parameters we are passing are: IDtoken, the user's Google account (with all details), the changes done in the contact page of the app and finally, the contact's original data in the app.
-					db_manager.putEditedContact(signedinuser,req.body[1], req.body[2]);
+					db_manager.putEditedContact(signedinuser,req.body[1], req.body[2], function() {
+						res.sendStatus(200); // equivalent to res.status(200).send('OK')
+					});
 				}
 			});
+			// Here we check wheter the authentication against Google's server failed or not. If yes, we send back the error code.
 			if (resul != null) {
 				res.status(resul).end();
 			}
-			//  changes_dictionary['officehours'] Object (in server side: req.body.officehours[x]) we will have rows with any of the following possible content:
-		    // · Useful information regarding 'officehours', e.g '23','00','14','15'
-		    // · undefined -> This corresponds to the rows that were not changed by the user but were loaded at the begining (info coming from the DB)
-		    // · NULL -> This corresponds to the rows that were intentionally deleted by the user
-		    // Remember that (http://www.w3schools.com/js/js_datatypes.asp):
-		    // null === undefined -> false
-		    // null == null -> true
-		    // null == undefined -> true !!
-			res.end() // no data to send back
 		}
 	});
 
@@ -156,7 +150,7 @@ function authenticateuser(idtoken, callback) {
 	var req = https.request(options, (res) => {
 		// Now, we're checking whether the request was done successfuly or there was an Internet connection problem.
 		// If status code is 4xx, then we end the request and send the status code back to the client side.
-		console.log('statusCode:', res.statusCode);
+		console.log('Server side Token authentication status code:', res.statusCode);
 		if (res.statusCode.toString().startsWith("4")) {
 			req.end();
 			return res.statusCode;

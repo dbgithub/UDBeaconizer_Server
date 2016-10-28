@@ -218,9 +218,12 @@ function getMapVersion(floor, callback) {
 // null === undefined -> false
 // null == null -> true
 // null == undefined -> true !!
-function putEditedContact(signedInUser, changes, person) {
+function putEditedContact(signedInUser, changes, person, callback) {
     var d = new Date();
-    var dstr = d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear() + "/" + d.getHours()+":"+d.getMinutes()+":"+d.getSeconds(); // e.g. 05/10/2016/11:30:46
+        var hour = (d.getHours() <10) ? "0"+d.getHours() : ""+d.getHours();
+        var minutes = (d.getMinutes() <10) ? "0"+d.getMinutes() : ""+d.getMinutes();
+        var secs = (d.getSeconds() <10) ? "0"+d.getSeconds() : ""+d.getSeconds();
+    var dstr = d.getDate() + "/" + d.getMonth()+1 + "/" + d.getFullYear() + "/" + hour+":"+minutes+":"+secs; // e.g. 05/10/2016/11:30:08
     var changesstr = ""; // This is the JSON string part that goes within the main JSON string
 
     // This for will fill up the 'before' and 'after' array of changes.
@@ -237,7 +240,7 @@ function putEditedContact(signedInUser, changes, person) {
         } else if (prop == "deustotech") { // The purpose of this 'if' clausure is to ensure we save a real boolean value instead of a string
             changesstr = changesstr + '{' +
             '"before": {"'+prop+'":'+ (person[prop] == "true") +'},' + // e.g. "before":{"deustotech":true}
-            '"after": {"'+prop+'":'+ (person[prop] == "true") +'}' + // e.g. "after":{"deustotech":false}
+            '"after": {"'+prop+'":'+ (changes[prop] == "true") +'}' + // e.g. "after":{"deustotech":false}
             '},';
         } else { // This clausure (statement) is for the rest of the elements
             changesstr = changesstr + '{' +
@@ -247,9 +250,8 @@ function putEditedContact(signedInUser, changes, person) {
         }
     }
     // Just as an aside note, here we show a list of possible values for 'prop' index.
-    // The values are directly captured from the DOM of the client side.
-    // name, position, faculty, office, email, phone, extension, fax, website, linkedin, deustotech,
-    // notes, officehours
+    // The values are directly captured from the DOM of the client side (the properties/attributes within 'changes' object):
+    // name, position, faculty, office, email, phone, extension, fax, website, linkedin, deustotech, notes, officehours
     changesstr = changesstr.slice(0, -1); // Here, we are removing the last comma added to the string, it is not necessary because there are not more JSON objects following.
 
     // This JSON represents the document to add to the database
@@ -264,8 +266,60 @@ function putEditedContact(signedInUser, changes, person) {
 
     _dbchanges.put(JSON.parse(json)).then(function (response) {
         console.log("Correctly added EDITED contact document: " + response.id);
+        callback(person._id, changes);
     }).catch(function (err) {
         console.log("error inserting an edited contact");
+        console.log(err);
+    });
+}
+
+// This function updates a staff member (contact) with the new information provided in the parameters.
+//  changes_dictionary['officehours'] Object (in server side: req.body[1].officehours[x]) we will have rows with any of the following possible content:
+// · Useful information regarding 'officehours', e.g '23','00','14','15'
+// · undefined -> This corresponds to the rows that were not changed by the user but were loaded at the begining (info coming from the DB)
+// · NULL -> This corresponds to the rows that were intentionally deleted by the user
+// Remember that (http://www.w3schools.com/js/js_datatypes.asp):
+// null === undefined -> false
+// null == null -> true
+// null == undefined -> true !!
+function updateStaff(staffID, changes) {
+    var updatedOfficehours = [];
+    var definitive_real_index = 0;
+
+    db.get(staffID).then(function(doc) {
+        if (changes.officehours != undefined) {
+            for (k = 0; k < changes.officehours.length; k++) {
+                if (changes.officehours[k] === undefined) {
+                    updatedOfficehours[definitive_real_index] = doc.officehours[k];
+                    definitive_real_index++:
+                }
+                else if (changes.officehours[k] !== null ) {
+                    updatedOfficehours[definitive_real_index] = changes.officehours[k];
+                    definitive_real_index++:
+                }
+            }
+        }
+        return db.put({
+            _id: staffID,
+            _rev: doc._rev,
+            name: (changes.name != undefined) ? changes.name : doc.name,
+            position: (changes.position != undefined) ? changes.position : doc.position,
+            faculty: (changes.faculty != undefined) ? changes.faculty : doc.faculty,
+            email: (changes.email != undefined) ? changes.email : doc.email,
+            extension: (changes.extension != undefined) ? changes.extension : doc.extension,
+            phone: (changes.phone != undefined) ? changes.phone : doc.phone,
+            fax: (changes.fax != undefined) ? changes.fax : doc.fax,
+            office: (changes.office != undefined) ? changes.office : doc.office,
+            officehours: (changes.officehours != undefined) ? updatedOfficehours : doc.officehours,
+            website: (changes.website != undefined) ? changes.website : doc.website,
+            linkedin: (changes.linkedin != undefined) ? changes.linkedin : doc.linkedin,
+            notes:(changes.notes != undefined) ? changes.notes : doc.notes,
+            dtech: (changes.deustotech != undefined) ? (changes.notes ==="true") : doc.dtech
+        });
+    }).then(function(response) {
+        console.log("Correctly updated STAFF document: " + response.id);
+    }).catch(function (err) {
+        console.log("error updating staff list (_id="+staffID+"):");
         console.log(err);
     });
 }
