@@ -231,7 +231,7 @@ function putEditedContact(signedInUser, changes, person, callback) {
         if (prop == "officehours") { // prop is the name of the Object's property, it is NOT an index.
             // Now we iterate the array of officehours:
             for (prop2 in changes.officehours) { // prop2 is an index in this context
-                if (changes.officehours[prop2] == undefined && changes.officehours[prop2] != null) {continue;}
+                if (changes.officehours[prop2] == undefined && changes.officehours[prop2] != null) {continue;} // AQUI ALGO FALLA! MIRAR!!!!!!!!!!!! no pone undefined cuando es default, he visto un NULL
                 changesstr = changesstr + '{' +
                 '"before": {"'+prop+prop2+'":"'+person.officehours[prop2]+'"},' + // e.g. "before":{"officehours0":"10,12,13,16"}
                 '"after": {"'+prop+prop2+'":"'+changes.officehours[prop2]+'"}' + // e.g. "after":{"officehours0":"11,13,15,17"}
@@ -266,7 +266,8 @@ function putEditedContact(signedInUser, changes, person, callback) {
 
     _dbchanges.put(JSON.parse(json)).then(function (response) {
         console.log("Correctly added EDITED contact document: " + response.id);
-        callback(person._id, changes);
+        updateStaff(person._id, changes);
+        callback();
     }).catch(function (err) {
         console.log("error inserting an edited contact");
         console.log(err);
@@ -286,20 +287,20 @@ function updateStaff(staffID, changes) {
     var updatedOfficehours = [];
     var definitive_real_index = 0;
 
-    db.get(staffID).then(function(doc) {
+    _dbstaff.get(staffID).then(function(doc) {
         if (changes.officehours != undefined) {
             for (k = 0; k < changes.officehours.length; k++) {
                 if (changes.officehours[k] === undefined) {
                     updatedOfficehours[definitive_real_index] = doc.officehours[k];
-                    definitive_real_index++:
+                    definitive_real_index++;
                 }
                 else if (changes.officehours[k] !== null ) {
                     updatedOfficehours[definitive_real_index] = changes.officehours[k];
-                    definitive_real_index++:
+                    definitive_real_index++;
                 }
             }
         }
-        return db.put({
+        return _dbstaff.put({
             _id: staffID,
             _rev: doc._rev,
             name: (changes.name != undefined) ? changes.name : doc.name,
@@ -314,7 +315,7 @@ function updateStaff(staffID, changes) {
             website: (changes.website != undefined) ? changes.website : doc.website,
             linkedin: (changes.linkedin != undefined) ? changes.linkedin : doc.linkedin,
             notes:(changes.notes != undefined) ? changes.notes : doc.notes,
-            dtech: (changes.deustotech != undefined) ? (changes.notes ==="true") : doc.dtech
+            dtech: (changes.deustotech != undefined) ? (changes.notes ==="true") : doc.dtech // AQUI ALGO FALLA! MIRAR!!!!!!!!!!!!
         });
     }).then(function(response) {
         console.log("Correctly updated STAFF document: " + response.id);
