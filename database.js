@@ -231,9 +231,14 @@ function putEditedContact(signedInUser, changes, person, callback) {
         if (prop == "officehours") { // prop is the name of the Object's property, it is NOT an index.
             // Now we iterate the array of officehours:
             for (prop2 in changes.officehours) { // prop2 is an index in this context
+                // The following two 'if' statements format the JSON value that will be stored. It ensures that real values are printed, for instance: an int as a string is not well formated. The data type should be respected.
+                var output1;
+        		var output2;
+        		if (person.officehours[prop2] == null) {output1 = null;} else if (isNaN(person.officehours[prop2])) {output1 = '"'+person.officehours[prop2] + '"';} else {output1 = parseInt(person.officehours[prop2]);}
+        		if (changes.officehours[prop2] == null) {output2 = null;} else if (isNaN(changes.officehours[prop2])) {output2 = '"'+changes.officehours[prop2] + '"';} else {output2 = parseInt(changes.officehours[prop2]);}
                 changesstr = changesstr + '{' +
-                '"before": {"'+prop+prop2+'":"'+((person.officehours[prop2] == null) ? null : person.officehours[prop2])+'"},' + // e.g. "before":{"officehours0":"10,12,13,16"}
-                '"after": {"'+prop+prop2+'":"'+((changes.officehours[prop2] == null) ? null : changes.officehours[prop2])+'"}' + // e.g. "after":{"officehours0":"11,13,15,17"}
+                '"before": {"'+prop+prop2+'":'+output1+'},' + // e.g. "before":{"officehours0":"10,12,13,16"}
+                '"after": {"'+prop+prop2+'":'+output2+'}' + // e.g. "after":{"officehours0":"11,13,15,17"}
                 '},';
             }
         } else if (prop == "deustotech") { // The purpose of this 'if' clausure is to ensure we save a real boolean value instead of a string
@@ -243,8 +248,8 @@ function putEditedContact(signedInUser, changes, person, callback) {
             '},';
         } else { // This clausure (statement) is for the rest of the elements
             changesstr = changesstr + '{' +
-            '"before": {"'+prop+'":"'+(person[prop] == null) ? null : person[prop] +'"},' + // e.g. "before":{"email":"hola@prueba.com"}
-            '"after": {"'+prop+'":"'+(changes[prop] == null) ? null : changes[prop]+'"}' + // e.g. "after":{"email":"hello@prueba2.com"}
+            '"before": {"'+prop+'":'+((person[prop] == null) ? null : '"'+person[prop]+'"') +'},' + // e.g. "before":{"email":"hola@prueba.com"}
+            '"after": {"'+prop+'":'+((changes[prop] == null) ? null : '"'+changes[prop]+'"')+'}' + // e.g. "after":{"email":"hello@prueba2.com"}
             '},';
         }
     }
