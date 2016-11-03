@@ -266,14 +266,13 @@ function putEditedContact(signedInUser, changes, person, callback) {
     '"email":"'+ signedInUser.email + '",' +
     '"userid":"'+ signedInUser.sub + '",' +
     '"timestamp":"'+ Date().toString() + '",' + // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
-    '"staffid":"'+ person.id + '",' +
+    '"staffid":"'+ person._id + '",' +
     '"changes":['+ changesstr+ ']'+
     '}';
 
     _dbchanges.put(JSON.parse(json)).then(function (response) {
         console.log("Correctly added EDITED contact document: " + response.id);
-        updateStaff(person._id, changes);
-        callback();
+        updateStaff(person._id, changes, callback);
     }).catch(function (err) {
         console.log("error inserting an edited contact");
         console.log(err);
@@ -289,19 +288,19 @@ function putEditedContact(signedInUser, changes, person, callback) {
 // null === undefined -> false
 // null == null -> true
 // null == undefined -> true !!
-function updateStaff(staffID, changes) {
+function updateStaff(staffID, changes, callback) {
     var updatedOfficehours = [];
     var definitive_real_index = 0;
 
     _dbstaff.get(staffID).then(function(doc) {
         if (changes.officehours != undefined) {
             for (k = 0; k < changes.officehours.length; k++) {
-                if (changes.officehours[k] == -1) {
+                if (!isNaN(changes.officehours[k]) && parseInt(changes.officehours[k]) == -1) {
                     updatedOfficehours[definitive_real_index] = doc.officehours[k];
                     definitive_real_index++;
                 }
-                else if (changes.officehours[k] !== null ) {
-                    updatedOfficehours[definitive_real_index] = changes.officehours[k];
+                else if (changes.officehours[k] != null ) {
+                    updatedOfficehours[definitive_real_index] = changes.officehours[k].toString(); // This is to make sure it is saved as a string and not as an array of strings.
                     definitive_real_index++;
                 }
             }
@@ -325,6 +324,7 @@ function updateStaff(staffID, changes) {
         });
     }).then(function(response) {
         console.log("Correctly updated STAFF document: " + response.id);
+        callback(); // We send an OK to Client side to let it know all operations were succesfuly dony.
     }).catch(function (err) {
         console.log("error updating staff list (_id="+staffID+"):");
         console.log(err);
