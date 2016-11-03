@@ -125,7 +125,7 @@ function loadStaff() {
             office: (temp[7].trim() == "") ? null : temp[7],
             officehours: [
                 "09,00,10,00", // This is an example (it means: 9:00 - 10:00), it should be removed and let teachers add it by themselves
-                "16,00,18,00" // This is an example (it means: 9:00 - 10:00), it should be removed and let teachers add it by themselves
+                "16,00,18,00" // This is an example (it means: 16:00 - 18:00), it should be removed and let teachers add it by themselves
             ],
             website: "www.example.deusto.es", // This is an example, it should be removed and let teachers add it by themselves
             linkedin: "www.linkedin.deusto.com", // This is an example, it should be removed and let teachers add it by themselves
@@ -232,8 +232,8 @@ function putEditedContact(signedInUser, changes, person, callback) {
             // Now we iterate the array of officehours:
             for (prop2 in changes.officehours) { // prop2 is an index in this context
                 changesstr = changesstr + '{' +
-                '"before": {"'+prop+prop2+'":"'+person.officehours[prop2]+'"},' + // e.g. "before":{"officehours0":"10,12,13,16"}
-                '"after": {"'+prop+prop2+'":"'+changes.officehours[prop2]+'"}' + // e.g. "after":{"officehours0":"11,13,15,17"}
+                '"before": {"'+prop+prop2+'":"'+((person.officehours[prop2] == null) ? null : person.officehours[prop2])+'"},' + // e.g. "before":{"officehours0":"10,12,13,16"}
+                '"after": {"'+prop+prop2+'":"'+((changes.officehours[prop2] == null) ? null : changes.officehours[prop2])+'"}' + // e.g. "after":{"officehours0":"11,13,15,17"}
                 '},';
             }
         } else if (prop == "deustotech") { // The purpose of this 'if' clausure is to ensure we save a real boolean value instead of a string
@@ -243,8 +243,8 @@ function putEditedContact(signedInUser, changes, person, callback) {
             '},';
         } else { // This clausure (statement) is for the rest of the elements
             changesstr = changesstr + '{' +
-            '"before": {"'+prop+'":"'+person[prop]+'"},' + // e.g. "before":{"email":"hola@prueba.com"}
-            '"after": {"'+prop+'":"'+changes[prop]+'"}' + // e.g. "after":{"email":"hello@prueba2.com"}
+            '"before": {"'+prop+'":"'+(person[prop] == null) ? null : person[prop] +'"},' + // e.g. "before":{"email":"hola@prueba.com"}
+            '"after": {"'+prop+'":"'+(changes[prop] == null) ? null : changes[prop]+'"}' + // e.g. "after":{"email":"hello@prueba2.com"}
             '},';
         }
     }
@@ -261,6 +261,7 @@ function putEditedContact(signedInUser, changes, person, callback) {
     '"email":"'+ signedInUser.email + '",' +
     '"userid":"'+ signedInUser.sub + '",' +
     '"timestamp":"'+ Date().toString() + '",' + // e.g. Wed Oct 05 2016 11:14:38 GMT+0200 (CEST)
+    '"staffid":"'+ person.id + '",' +
     '"changes":['+ changesstr+ ']'+
     '}';
 
@@ -315,7 +316,7 @@ function updateStaff(staffID, changes) {
             website: (changes.website != undefined) ? changes.website : doc.website,
             linkedin: (changes.linkedin != undefined) ? changes.linkedin : doc.linkedin,
             notes:(changes.notes != undefined) ? changes.notes : doc.notes,
-            dtech: (changes.deustotech != undefined) ? (doc.dtech ==="true") : doc.dtech // AQUI ALGO FALLA! MIRAR!!!!!!!!!!!!
+            dtech: (changes.deustotech != undefined) ? (changes.dtech ==="true") : doc.dtech
         });
     }).then(function(response) {
         console.log("Correctly updated STAFF document: " + response.id);
