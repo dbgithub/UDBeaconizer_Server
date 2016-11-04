@@ -117,8 +117,10 @@ function start(port) {
 				if(signedinuser != undefined) {
 					// This conditional statement means the authentication was successful
 					// The parameters we are passing are: IDtoken, the user's Google account (with all details), the changes done in the contact page of the app and finally, the contact's original data in the app.
-					db_manager.putEditedContact(signedinuser,req.body[1], req.body[2], function() {
-						res.sendStatus(200); // equivalent to res.status(200).send('OK')
+					db_manager.putEditedContact(signedinuser,req.body[1], req.body[2], function(doc) {
+						console.log("SERVER.JS ---> " + doc._id);
+						res.status(200).send(doc); // We send the edited staff to Client side to let it know all operations were succesfuly done.
+						// res.sendStatus(200); // equivalent to res.status(200).send('OK')
 					});
 				}
 			});
