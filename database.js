@@ -325,7 +325,6 @@ function updateStaff(staffID, changes, callback) {
     }).then(function(response) {
         console.log("Correctly updated STAFF document: " + response.id);
         _dbstaff.get(response.id).then(function(doc) {
-            console.log("DATABASE.JS ---> " + doc._id);
             callback(doc); // We send the edited staff to Client side to let it know all operations were succesfuly done.
         });
     }).catch(function (err) {
