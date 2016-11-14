@@ -320,7 +320,7 @@ function updateStaff(staffID, changes, callback) {
             website: (changes.website != undefined) ? changes.website : doc.website,
             linkedin: (changes.linkedin != undefined) ? changes.linkedin : doc.linkedin,
             notes:(changes.notes != undefined) ? changes.notes : doc.notes,
-            dtech: (changes.deustotech != undefined) ? (changes.dtech ==="true") : doc.dtech
+            dtech: (changes.deustotech != undefined) ? (changes.deustotech == "true") : doc.deustotech
         });
     }).then(function(response) {
         console.log("Correctly updated STAFF document: " + response.id);
