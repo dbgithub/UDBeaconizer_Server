@@ -109,7 +109,7 @@ function start(port) {
 		if (auth == "admin") {
 			// Firstly, we verify the identity of the user:
 			// req.body[0] = this is the ID token of the signed in user.
-			var resul = authenticateuser(req.body[0], function(signedinuser) {
+			authenticateuser(req.body[0], function(signedinuser) {
 				// Now, we save the changes done on a contact:
 				// req.body[1] = this is the changes dictionary where all the new changes are recorded
 				// req.body[2] = this is the data structure representing the contact (name, faculty, email...)
@@ -122,11 +122,10 @@ function start(port) {
 						// res.sendStatus(200); // equivalent to res.status(200).send('OK')
 					});
 				}
+			}, function(error_status) {
+				// Here we assume that the authentication against Google's server failed. Then, we send back the error code.
+				res.status(error_status).end();
 			});
-			// Here we check wheter the authentication against Google's server failed or not. If yes, we send back the error code.
-			if (resul != null) {
-				res.status(resul).end();
-			}
 		}
 	});
 
@@ -139,7 +138,7 @@ function start(port) {
 // https://developers.google.com/identity/sign-in/web/backend-auth
 // In short, the ID token is used to authenticate, because is not secure (nor good practise) sending the user ID (in which I'm interested) to the backend.
 // The token ID is from the user who has just signed in. This token is intended to navigate Internet without problems, the propper/standard way of doing things is verifying the token agains Google's servers and retrieve User's information on server side.
-function authenticateuser(idtoken, callback) {
+function authenticateuser(idtoken, callback, errorCallback) {
 	var options = {
 		hostname: 'www.googleapis.com',
 		port: 443,
@@ -152,9 +151,8 @@ function authenticateuser(idtoken, callback) {
 		// Now, we're checking whether the request was done successfuly or there was an Internet connection problem.
 		// If status code is 4xx, then we end the request and send the status code back to the client side.
 		console.log('Server side Token authentication status code:', res.statusCode);
-		console.log("to string del status code: " + res.statusCode.toString());
 		if (res.statusCode.toString().startsWith("4")) {
-			status = res.statusCode;
+			errorCallback(res.statusCode);
 		} else {
 			// console.log('headers:', res.headers);
 			res.on('data', (d) => {
@@ -176,7 +174,6 @@ function authenticateuser(idtoken, callback) {
 		console.log("Error on 'authenticateuser', POST query:");
 		console.error(e);
 	});
-	return status;
 }
 
 exports.start = start;
