@@ -146,36 +146,37 @@ function authenticateuser(idtoken, callback) {
 		path: '/oauth2/v3/tokeninfo?id_token='+idtoken.toString(),
 		method: 'POST'
 	};
-
+	var status = null;
 	// More info about the request at: https://nodejs.org/api/https.html#https_https_get_options_callback
 	var req = https.request(options, (res) => {
 		// Now, we're checking whether the request was done successfuly or there was an Internet connection problem.
 		// If status code is 4xx, then we end the request and send the status code back to the client side.
 		console.log('Server side Token authentication status code:', res.statusCode);
+		console.log("to string del status code: " + res.statusCode.toString());
 		if (res.statusCode.toString().startsWith("4")) {
-			req.end();
-			return res.statusCode;
+			status = res.statusCode;
+		} else {
+			// console.log('headers:', res.headers);
+			res.on('data', (d) => {
+				// process.stdout.write(d); // prints the data in the console
+				d = JSON.parse(d);
+				if (d.aud == _webClientID) {
+					// Authentication success
+					callback(d);
+					// Fields cointained in 'd':
+					// - iss, sub, azp, aud, iat, exp
+					// And the user's information:
+					// - email, email_verified, name, picture, given_name, family_name and locale
+				}
+			});
 		}
-		// console.log('headers:', res.headers);
-		res.on('data', (d) => {
-			// process.stdout.write(d); // prints the data in the console
-			d = JSON.parse(d);
-			if (d.aud == _webClientID) {
-				// Authentication success
-				callback(d);
-				// Fields cointained in 'd':
-				// - iss, sub, azp, aud, iat, exp
-				// And the user's information:
-				// - email, email_verified, name, picture, given_name, family_name and locale
-			}
-		});
 	});
 	req.end();
 	req.on('error', (e) => {
 		console.log("Error on 'authenticateuser', POST query:");
 		console.error(e);
 	});
-	return null;
+	return status;
 }
 
 exports.start = start;
