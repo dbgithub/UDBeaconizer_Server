@@ -6,6 +6,14 @@ var cors = require('cors'); // More info about configuring CORS: https://www.npm
 const https = require('https'); // More info about HTTPS requests (POST, GET) at: https://nodejs.org/api/https.html#https_https_get_options_callback
 const _webClientID = '473073684258-jss0qgver3lio3cmjka9g71ratesqckr.apps.googleusercontent.com'; // This is a client ID created in Google's Developer page as a credential. This one is for WEB applications.
 
+// Info about working with buffers:
+// https://nodejs.org/api/buffer.html
+// https://docs.nodejitsu.com/articles/advanced/buffers/how-to-use-buffers/
+// More info about RESPONSE objects:
+// http://www.tutorialspoint.com/nodejs/nodejs_response_object.htm
+// Don't forget you can also return a reference to a database:
+// ret = new PouchDB('http://'+"0.0.0.0"+':'+"5984"+'/staffdb');
+// res.send(ret);
 function start(port) {
 	var app = express();
 	app.use(cors({credentials: true, origin: '*'})); // Here, CORS is being configured
@@ -15,45 +23,13 @@ function start(port) {
 	app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 	app.use('/maps', express.static('data/img'));
-	// Extra code. Old code to possibly read images:
-	// 'data' is what has been read from 'fs.readFile()'
-	// res.writeHead(200, {'Content-Type': 'image/png'}); // Esto no lo llegue nunca a utilizar podria ser una posibilidad.
-	// buf_str = new Buffer.from(data).toString('base64');
-	// res.end(buf_str, "base64"); // Send the image file back to client-side.
-	// More info about working with buffers:
-	// https://nodejs.org/api/buffer.html
-	// https://docs.nodejitsu.com/articles/advanced/buffers/how-to-use-buffers/
-	// More info about RESPONSE objects:
-	// http://www.tutorialspoint.com/nodejs/nodejs_response_object.htm
 
 	app.get('/', function (req, res) {
 		console.log("HelloWorld!");
 		res.send('HelloWorld!');
 	});
 
-	// localhost:port/rooms?auth=admin
-	app.get('/rooms', function(req, res) {
-		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
-		res.send("HelloWorld!");
-	});
-
-	// localhost:port/beacons?auth=admin
-	app.get('/beacons', function(req, res) {
-		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
-		res.send("HelloWorld!");
-	});
-
-	// localhost:8080/staff?auth=admin
-	app.get('/staff', function(req, res) {
-		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
-		console.log("Request 'staff' received!");
-		if (auth == "admin") {
-			ret = new PouchDB('http://'+"0.0.0.0"+':'+"5984"+'/staffdb');
-			res.send(ret);
-		}
-	});
-
-	// localhost:8080/staff/version?auth=admin
+	// e.g. localhost:8080/staff/version?auth=admin
 	app.get('/staff/version', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'staff/version' received!");
@@ -65,7 +41,7 @@ function start(port) {
 		}
 	});
 
-	// localhost:8080/rooms/version?auth=admin
+	// e.g. localhost:8080/rooms/version?auth=admin
 	app.get('/rooms/version', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'rooms/version' received!");
@@ -77,7 +53,7 @@ function start(port) {
 		}
 	});
 
-	// localhost:8080/beacons/version?auth=admin
+	// e.g. localhost:8080/beacons/version?auth=admin
 	app.get('/beacons/version', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'beacons/version' received!");
@@ -89,7 +65,7 @@ function start(port) {
 		}
 	});
 
-	// localhost:8080/rooms/mapversion/2?auth=admin
+	// e.g. localhost:8080/rooms/mapversion/2?auth=admin
 	app.get('/rooms/mapversion/:v', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'rooms/mapversion' received!");
@@ -102,7 +78,7 @@ function start(port) {
 		}
 	});
 
-	// localhost:8080/editcontact?auth=admin
+	// e.g. localhost:8080/editcontact?auth=admin
 	app.post('/editcontact', function(req, res) {
 		var auth = req.query.auth; // req.param, req.body, req.query depending on the case, more info at: http://expressjs.com/en/api.html#req.query
 		console.log("Request 'editcontact' received!");
@@ -163,7 +139,7 @@ function authenticateuser(idtoken, callback, errorCallback) {
 					callback(d);
 					// Fields cointained in 'd':
 					// - iss, sub, azp, aud, iat, exp
-					// And the user's information:
+					// And user's information:
 					// - email, email_verified, name, picture, given_name, family_name and locale
 				}
 			});
