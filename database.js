@@ -10,7 +10,7 @@ var _dbbeacons; // database for beacons
 var _dbchanges; // database for information changes
 var _tuples; // text lines read from stafflist '.txt' file
 var _jsondata; // json documents read from a '.json' file
-// A tip about gloval variables. More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
+// A tip about global variables. More info about global variables: http://www.hacksparrow.com/global-variables-in-node-js.html
 
 function initialize(domain, port) {
     _db_domain = domain;
@@ -114,7 +114,7 @@ function loadStaff() {
     for (i = 0; i < _tuples.length; i++) {
         temp = _tuples[i].split("|");
         _dbstaff.put({
-            _id: temp[0].toLowerCase(), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
+            _id: removeTildes(temp[0].toLowerCase()), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
             name: (temp[0].trim() == "") ? null : temp[0],
             position: (temp[1].trim() == "") ? null : temp[1],
             faculty: (temp[2].trim() == "") ? null : temp[2],
@@ -138,6 +138,19 @@ function loadStaff() {
             console.log("error loading staff list (i="+i+"):");
             console.log(err);
         });
+    }
+
+    function removeTildes(phrase) {
+        var abcFrom = "ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñ"; // These are the characters we want to replace in the text passed as an argument
+        var abcTo = "AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuuNn"; // These are the characters which we want to replace with in the text.
+        var NumTildesEncontradas = phrase.match(/[ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñ]/g); // Finds the number of characters to replace
+        // Now we will iterate the same amount of time that characters are to be replaced.
+        // We want to find the index of the characters without "tilde" and we will replace it with the one that does have.
+        for (l = 0; l < NumTildesEncontradas.length; l++) {
+    	    var indexWithoutTilde = abcFrom.indexOf(phrase.match(/[ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñ]+/g)[0])
+            phrase = phrase.replace(NumTildesEncontradas[l], abcTo[indexWithoutTilde])
+        }
+        return phrase;
     }
 }
 
