@@ -143,7 +143,7 @@ function loadStaff() {
     function removeTildes(phrase) {
         var abcFrom = "ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñ"; // These are the characters we want to replace in the text passed as an argument
         var abcTo = "AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuuNn"; // These are the characters which we want to replace with in the text.
-        var NumTildesEncontradas = phrase.match(/[ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñ]/g); // Finds the number of characters to replace
+        var NumTildesEncontradas = phrase.match(/[ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñ]/g) || 0; // Finds the number of characters to replace. With the logical OR of '0' we are avoiding a null exception error and thus, skipping content that has no 'tildes' 
         // Now we will iterate the same amount of time that characters are to be replaced.
         // We want to find the index of the characters without "tilde" and we will replace it with the one that does have.
         for (l = 0; l < NumTildesEncontradas.length; l++) {
