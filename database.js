@@ -15,7 +15,7 @@ var _jsondata; // json documents read from a '.json' file
 function initialize(domain, port) {
     _db_domain = domain;
     _db_port = port;
-    // Fetching the databases or creatin them for the first time:
+    // Fetching the databases or creating them for the first time:
     createDB("staff"); // This call creates the database for the firt time, reads staff list and loads the data into the database
                        // If it is not the first time, the database is just fetched
     createDB("rooms"); // This call creates the database for the firt time, reads rooms list and loads the data into the database
@@ -35,7 +35,7 @@ function initialize(domain, port) {
 // FUNCTIONS:
 
 // This function creates/fetches databases.
-// There exists a local document within the database that says the sequence number of the database (the version), that is, the amount of changes done in the database.
+// There exists a local document within the database that outlines the sequence number of the database (the version), that is, the amount of changes done in the database.
 function createDB(whichDB) {
     if (whichDB === "staff") {
         _dbstaff = new PouchDB('http://'+_db_domain+':'+_db_port+'/staffdb'); // Fetching or creating the database for staff.
@@ -114,7 +114,7 @@ function loadStaff() {
     for (i = 0; i < _tuples.length; i++) {
         temp = _tuples[i].split("|");
         _dbstaff.put({
-            _id: removeTildes(temp[0].toLowerCase()), // Aqui tendría que sustituir las posibles tildes por caracteres sin tildes.
+            _id: removeTildes(temp[0].toLowerCase()),
             name: (temp[0].trim() == "") ? null : temp[0],
             position: (temp[1].trim() == "") ? null : temp[1],
             faculty: (temp[2].trim() == "") ? null : temp[2],
@@ -345,6 +345,7 @@ function updateStaff(staffID, changes, callback) {
         console.log(err);
     });
 }
+
 // Shows databse info
 function DBinfo(db) {
     db.info().then(function (result) {

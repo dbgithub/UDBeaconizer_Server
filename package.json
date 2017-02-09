@@ -10,9 +10,9 @@
   "author": "Aitor DB",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.16.0",
     "cors": "^2.8.1",
-    "express": "^4.14.0",
-    "pouchdb": "^6.0.6"
+    "express": "^4.14.1",
+    "pouchdb": "^6.1.2"
   }
 }
