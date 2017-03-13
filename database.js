@@ -84,7 +84,7 @@ function deleteDB(dbname) {
 
 // This function reads a txt file from local files:
 function readStaffFile(file, loadStaff) {
-    fs.readFile('./'+file, 'utf16le', function (err,data) { // list of encoding type: http://stackoverflow.com/questions/14551608/list-of-encodings-that-node-js-supports
+    fs.readFile('./'+file, 'utf8', function (err,data) { // list of encoding type: http://stackoverflow.com/questions/14551608/list-of-encodings-that-node-js-supports
         if (err) {
             console.log("error reading staff file:");
             return console.log(err);
