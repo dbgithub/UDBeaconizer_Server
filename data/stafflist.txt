@@ -1,196 +1,196 @@
-Agustín José Zubillaga Rego| |Facultad de Ingeniería|agustin.zubillaga@deusto.es|3258| | |Orkestra - Sede Bilbao. Edif. La Comercial planta 2.|false
+Agustín José Zubillaga Rego| |Facultad de Ingeniería|agustin.zubillaga@deusto.es|8968| | |Orkestra - Sede Bilbao. Edif. La Comercial planta 9.|false
 Aitor de Blas Granja| |Facultad de Ingeniería| | | | | |false
-Aitor Fernández Eguiluz| |Facultad de Ingeniería|aitor.fernandez@deusto.es|2724| | |Sala profesores|false
-Aitor Goti Elordi| |Facultad de Ingeniería|aitor.goti@deusto.es|2680| | |551|false
-Aiur Retegi Uria| |Facultad de Ingeniería|aiur.retegi@deusto.es|2682| | |548|false
+Aitor Fernández Eguiluz| |Facultad de Ingeniería|aitor.fernandez@deusto.es|9797| | |Sala profesores|false
+Aitor Goti Elordi| |Facultad de Ingeniería|aitor.goti@deusto.es|9680| | |660|false
+Aiur Retegi Uria| |Facultad de Ingeniería|aiur.retegi@deusto.es|9689| | |678|false
 Alain Fernández Bilbao| |Facultad de Ingeniería| | | | | |false
-Alberto de la Calle Vicente| |Facultad de Ingeniería|acalle@deusto.es|2971| | |525|false
-Alberto Sendin Escalona| |Facultad de Ingeniería|asendin@deusto.es|2724| | |Sala profesores|false
-Alberto Tellaeche Iglesias| |Facultad de Ingeniería|alberto.tellaeche@deusto.es|2724| | |Sala profesores|false
+Alberto de la Calle Vicente| |Facultad de Ingeniería|acalle@deusto.es|9970| | |696|false
+Alberto Sendin Escalona| |Facultad de Ingeniería|asendin@deusto.es|9797| | |Sala profesores|false
+Alberto Tellaeche Iglesias| |Facultad de Ingeniería|alberto.tellaeche@deusto.es|9797| | |Sala profesores|false
 Alejandro Lorite Mora| |Facultad de Ingeniería| | | | | |false
-Alexander Félix Rayón Jerez|Vicedecano de Relaciones Externas y Formación Continua|Facultad de Ingeniería|alex.rayon@deusto.es|2500|660 799 251| |Facultad de Ingeniería, 3ª Planta, Decanato|false
+Alexander Félix Rayón Jerez|Vicedecano de Relaciones Externas y Formación Continua|Facultad de Ingeniería|alex.rayon@deusto.es|9600|660 799 960| |Facultad de Ingeniería, 8ª Planta, Decanato|false
 Amaia Goñi Ardanaz| |Facultad de Ingeniería| | | | | |false
 Amaia Ugalde Quijano| |Facultad de Ingeniería| | | | | |false
-Amaya Méndez Zorrilla|Secretaria Facultad|Facultad de Ingeniería|amaia.mendez@deusto.es|2956| | |Decanato Ingeniería|false
-Ana Begoña Ruiz Vieytez| |Facultad de Ingeniería|ana.ruiz@deusto.es|2979| | |535-D|false
-Ana Belén Carrera Iriarte|Decanato|Facultad de Ingeniería|acarrera@deusto.es|2264| |944 139 101| |false
-Ana Belén Lago Vilariño|Vicedecana de Ordenación Académica|Facultad de Ingeniería|anabelen.lago@deusto.es|3174| |944139101|Decanato|false
-Ana María Macarulla Arenaza| |Facultad de Ingeniería|ana.macarulla@deusto.es|2669-2045| | |518-D / Deustotech Energy|true
-Ana María Megia Macías| |Facultad de Ingeniería|ana.megia@deusto.es| | | |558-D|false
+Amaya Méndez Zorrilla|Secretaria Facultad|Facultad de Ingeniería|amaia.mendez@deusto.es|9966| | |Decanato Ingeniería|false
+Ana Begoña Ruiz Vieytez| |Facultad de Ingeniería|ana.ruiz@deusto.es|9979| | |686-D|false
+Ana Belén Carrera Iriarte|Decanato|Facultad de Ingeniería|acarrera@deusto.es|9967| |977 089 000| |false
+Ana Belén Lago Vilariño|Vicedecana de Ordenación Académica|Facultad de Ingeniería|anabelen.lago@deusto.es|8077| |977089000|Decanato|false
+Ana María Macarulla Arenaza| |Facultad de Ingeniería|ana.macarulla@deusto.es|9669-9076| | |608-D / Deustotech Energy|true
+Ana María Megia Macías| |Facultad de Ingeniería|ana.megia@deusto.es| | | |668-D|false
 Ander Areizaga Blanco| |Facultad de Ingeniería| | | | | |false
-Ane Irune Llaguno Barrio|Cooperación Educativa y Postgrados|Facultad de Ingeniería|irune.llaguno@deusto.es|2408|944 139 208|944 139 101| |false
-Antonio Eguiluz Morán| |Facultad de Ingeniería|andoni.eguiluz@deusto.es|2417|944 139 217| |537|false
-Aranzazu Mugica Arrien|Vicedecana de Estudiantes|Facultad de Ingeniería|arantza.mugica@deusto.es|2801| | |D-560|false
-Asier Perallos Ruiz|Decano|Facultad de Ingeniería|perallos@deusto.es|2419| | |Decanato 3ª planta|false
-Beatriz Achiaga Menor| |Facultad de Ingeniería|beatriz.achiaga@deusto.es| |3198| |556D|false
-Beatriz Galán Espiga| |Facultad de Ingeniería|beatriz.galan@deusto.es|2802| | |563-D|false
+Ane Irune Llaguno Barrio|Cooperación Educativa y Postgrados|Facultad de Ingeniería|irune.llaguno@deusto.es|9708|977 089 908|977 089 000| |false
+Antonio Eguiluz Morán| |Facultad de Ingeniería|andoni.eguiluz@deusto.es|9707|977 089 907| |687|false
+Aranzazu Mugica Arrien|Vicedecana de Estudiantes|Facultad de Ingeniería|arantza.mugica@deusto.es|9800| | |D-660|false
+Asier Perallos Ruiz|Decano|Facultad de Ingeniería|perallos@deusto.es|9709| | |Decanato 8ª planta|false
+Beatriz Achiaga Menor| |Facultad de Ingeniería|beatriz.achiaga@deusto.es| |8098| |666D|false
+Beatriz Galán Espiga| |Facultad de Ingeniería|beatriz.galan@deusto.es|9809| | |668-D|false
 Cristina Anguiano Amiano| |Facultad de Ingeniería|c.anguiano@deusto.es| | | | |false
-Cristina Giménez Elorriaga| |Facultad de Ingeniería|cristina.gimenez@deusto.es|2134|639 26 72 58| |Decanato|false
-David Buján Carballal| |Facultad de Ingeniería|david.bujan@deusto.es|2797| | |555-D|false
+Cristina Giménez Elorriaga| |Facultad de Ingeniería|cristina.gimenez@deusto.es|9087|689 96 79 68| |Decanato|false
+David Buján Carballal| |Facultad de Ingeniería|david.bujan@deusto.es|9797| | |666-D|false
 Diana Vargas Arias| |Facultad de Ingeniería| | | | | |false
-Diego López de Ipiña González de Artaza| |Facultad de Ingeniería|dipina@deusto.es|2548|645 73 84 34| |D9-DeustoTech, 4ª planta, Facultad de Ingeniería|true
-Eduardo García Gil| |Facultad de Ingeniería|e.garcia@deusto.es|2415| | |552-D|false
+Diego López de Ipiña González de Artaza| |Facultad de Ingeniería|dipina@deusto.es|9678|676 78 87 87| |D9-DeustoTech, 7ª planta, Facultad de Ingeniería|true
+Eduardo García Gil| |Facultad de Ingeniería|e.garcia@deusto.es|9706| | |669-D|false
 Ekaitz Polledo Sánchez| |Facultad de Ingeniería| | | | | |false
 Elena Díaz Ruiz| |Facultad de Ingeniería| | | | | |false
-Elexabet Gogenola Landeta| |Facultad de Ingeniería|elexabet.gogenola@deusto.es|2959| | |Facultad de Ingeniería|false
+Elexabet Gogenola Landeta| |Facultad de Ingeniería|elexabet.gogenola@deusto.es|9969| | |Facultad de Ingeniería|false
 Eneko Cruz Elejalde| |Facultad de Ingeniería| | | | | |false
-Enrique Burguera Montoya| |Facultad de Ingeniería|enrique.burguera@deusto.es|2724| | |Sala profesores|false
-Enrique Onieva Caracuel| |Facultad de Ingeniería|enrique.onieva@deusto.es|2704-2050| | |547-D (5ª Planta edificio ESIDE)|false
-Esther Álvarez de los Mozos| |Facultad de Ingeniería|esther.alvarez@deusto.es|2561|944 13 93 61| |Edificio ESIDE, D-546|false
-Estibaliz Goicoechea Zulaica| |Facultad de Ingeniería|estibaliz.goicoechea@deusto.es|2108| | |582|false
-Estibaliz Velasco Bilbao|Decanato|Facultad de Ingeniería|evelasco@deusto.es|2264|944 139 064|944 139 101| |false
-Fernando Cortés Martínez|Director del Departamento de Tecnologías Industriales|Facultad de Ingeniería|fernando.cortes@deusto.es|2753| | |Decanato|false
-Fraisku Xabier Garamendi Ruiz| |Facultad de Ingeniería|xgaramen@deusto.es|2724| | |Sala profesores|false
+Enrique Burguera Montoya| |Facultad de Ingeniería|enrique.burguera@deusto.es|9797| | |Sala profesores|false
+Enrique Onieva Caracuel| |Facultad de Ingeniería|enrique.onieva@deusto.es|9707-9060| | |677-D (6ª Planta edificio ESIDE)|false
+Esther Álvarez de los Mozos| |Facultad de Ingeniería|esther.alvarez@deusto.es|9660|977 08 98 60| |Edificio ESIDE, D-676|false
+Estibaliz Goicoechea Zulaica| |Facultad de Ingeniería|estibaliz.goicoechea@deusto.es|9008| | |689|false
+Estibaliz Velasco Bilbao|Decanato|Facultad de Ingeniería|evelasco@deusto.es|9967|977 089 067|977 089 000| |false
+Fernando Cortés Martínez|Director del Departamento de Tecnologías Industriales|Facultad de Ingeniería|fernando.cortes@deusto.es|9768| | |Decanato|false
+Fraisku Xabier Garamendi Ruiz| |Facultad de Ingeniería|xgaramen@deusto.es|9797| | |Sala profesores|false
 Garazi Onandia Loroño| |Facultad de Ingeniería| | | | | |false
-Garbiñe Amuriza Ateca|Decanato|Facultad de Ingeniería|garbine.amuriza@deusto.es|2959| | | |false
-Gloria Zaballa Pérez| |Facultad de Ingeniería|gloria.zaballa@deusto.es|2803| | |D-562|false
+Garbiñe Amuriza Ateca|Decanato|Facultad de Ingeniería|garbine.amuriza@deusto.es|9969| | | |false
+Gloria Zaballa Pérez| |Facultad de Ingeniería|gloria.zaballa@deusto.es|9808| | |D-669|false
 Gorka Aguirre Presencio| |Facultad de Ingeniería| | | | | |false
 Gorka Azkune Galparsoro| |Facultad de Ingeniería|gorka.azkune@deusto.es| | | | |false
-Ibon Oleagordia Ruiz| |Facultad de Ingeniería|ibruiz@deusto.es|2812-2051-3035| | |D-523|false
-Ignacio Angulo Martínez| |Facultad de Ingeniería|ignacio.angulo@deusto.es|2940-2050-3031| | |564|false
-Ignacio Lecuona Ezcurdia| |Facultad de Ingeniería|ilekuona@deusto.es|5225| | | |false
-Igor Santos Grueiro| |Tecnológico Fundación Deusto (Bilbao)|isantos@deusto.es|2040|619 55 67 61| |DeustoTech|true
-Imanol Josu Sarria Rubin de Celis| |Facultad de Ingeniería|isarria@deusto.es|2821| | |536-D|false
-Inés Magdalena Jacob Taquet| |Facultad de Ingeniería|ines.jacob@deusto.es|2979|944 13 94 89| |535 Edificio de Ingeniería|false
-Iñaki Garate Buenechea| |Facultad de Ingeniería|inaki.garate@deusto.es|2724| | |Sala profesores|false
+Ibon Oleagordia Ruiz| |Facultad de Ingeniería|ibruiz@deusto.es|9809-9060-8086| | |D-698|false
+Ignacio Angulo Martínez| |Facultad de Ingeniería|ignacio.angulo@deusto.es|9970-9060-8080| | |667|false
+Ignacio Lecuona Ezcurdia| |Facultad de Ingeniería|ilekuona@deusto.es|6996| | | |false
+Igor Santos Grueiro| |Tecnológico Fundación Deusto (Bilbao)|isantos@deusto.es|9070|609 66 67 60| |DeustoTech|true
+Imanol Josu Sarria Rubin de Celis| |Facultad de Ingeniería|isarria@deusto.es|9890| | |686-D|false
+Inés Magdalena Jacob Taquet| |Facultad de Ingeniería|ines.jacob@deusto.es|9979|977 08 97 89| |686 Edificio de Ingeniería|false
+Iñaki Garate Buenechea| |Facultad de Ingeniería|inaki.garate@deusto.es|9797| | |Sala profesores|false
 Iñaki Seco Aguirre| |Facultad de Ingeniería| | | | | |false
-Iñigo Alfonso Barba Fernández| |Facultad de Ingeniería|inigoalfonso.barba@deusto.es|2724| | |Sala profesores|false
+Iñigo Alfonso Barba Fernández| |Facultad de Ingeniería|inigoalfonso.barba@deusto.es|9797| | |Sala profesores|false
 Iñigo Sáez Ceballos| |Facultad de Ingeniería| | | | | |false
-Irantzu Ruiz Legarreta| |Facultad de Ingeniería|irantzuruiz@deusto.es|2594|944 13 93 94| |Secretaría Decanato|false
-Iratxe Menchaca Sierra| |Facultad de Ingeniería|iratxe.mentxaka@deusto.es|2047| | | |false
-Izaskun Pellejero Alonso| |Facultad de Ingeniería|ipellejero@deusto.es|2724|944 01 17 21-688 61 56 71| |510|false
+Irantzu Ruiz Legarreta| |Facultad de Ingeniería|irantzuruiz@deusto.es|9697|977 08 98 97| |Secretaría Decanato|false
+Iratxe Menchaca Sierra| |Facultad de Ingeniería|iratxe.mentxaka@deusto.es|9077| | | |false
+Izaskun Pellejero Alonso| |Facultad de Ingeniería|ipellejero@deusto.es|9797|977 00 07 90-688 60 66 70| |600|false
 Jaime Rodríguez Palacio| |Facultad de Ingeniería| | | | | |false
-Janire Gordon Isasi| |Facultad de Ingeniería|janiregordon@deusto.es|2824| | |Oficina 12, DEUSTOKABI (piso 4 edificio ESIDE)|false
-Javier Areitio Bertolin| |Facultad de Ingeniería|jareitio@deusto.es|2316-5645|944 13 91 16| |554|false
-Javier Cerro Fernández| |Facultad de Ingeniería|javier.cerro@deusto.es|5221| | |Donosti - Edificio Aulario 5ª Planta|false
+Janire Gordon Isasi| |Facultad de Ingeniería|janiregordon@deusto.es|9897| | |Oficina 09, DEUSTOKABI (piso 7 edificio ESIDE)|false
+Javier Areitio Bertolin| |Facultad de Ingeniería|jareitio@deusto.es|9806-6676|977 08 90 06| |667|false
+Javier Cerro Fernández| |Facultad de Ingeniería|javier.cerro@deusto.es|6990| | |Donosti - Edificio Aulario 6ª Planta|false
 Javier de la Fuente Guillén| |Facultad de Ingeniería| | | | | |false
-Javier García Zubia| |Facultad de Ingeniería|zubia@deusto.es|2576| | |586|false
-Javier Salcedo Hernández| |Facultad de Ingeniería|javiersalcedo@deusto.es| |649699775| | |false
-Javier Vicente Sáez| |Facultad de Ingeniería|jvicente@deusto.es|2780| | |585|false
-Jesús Luis Díaz Labrador| |Facultad de Ingeniería|josuka@deusto.es|2806-5645| | |565-D|false
-Jesús Manuel Riaño Sierra| |Facultad de Ingeniería|jesus.riano@deusto.es|2551-2564| | | |false
+Javier García Zubia| |Facultad de Ingeniería|zubia@deusto.es|9676| | |686|false
+Javier Salcedo Hernández| |Facultad de Ingeniería|javiersalcedo@deusto.es| |679699776| | |false
+Javier Vicente Sáez| |Facultad de Ingeniería|jvicente@deusto.es|9780| | |686|false
+Jesús Luis Díaz Labrador| |Facultad de Ingeniería|josuka@deusto.es|9806-6676| | |666-D|false
+Jesús Manuel Riaño Sierra| |Facultad de Ingeniería|jesus.riano@deusto.es|9660-9667| | | |false
 Jon Ander Presilla Calvo| |Facultad de Ingeniería| | | | | |false
-Jon García Barruetabeña| |Facultad de Ingeniería|jgarcia.barruetabena@deusto.es|2827| | |567-D|false
+Jon García Barruetabeña| |Facultad de Ingeniería|jgarcia.barruetabena@deusto.es|9897| | |667-D|false
 Jon Iñaki Sasia Santos| |Facultad de Ingeniería|inaki.sasia@deusto.es| | | | |false
-Jon Legarda Macon| |Tecnológico Fundación Deusto (Bilbao)|jlegarda@deusto.es|2048| | |DeustoTech - Planta 4|true
-Jonatan Ruiz de Garibay Pascual| |Facultad de Ingeniería|jonathan.garibay@deusto.es|2794-2037| | |E520|false
-José Emilio Rodríguez Seco| |Facultad de Ingeniería|joseemilio.rodriguez@deusto.es|2724| | |Sala profesores, edificio ESIDE|false
-José Félix García García| |Facultad de Ingeniería|jfgarcia@deusto.es|2724|609 400 604| |Sala profesores|false
-José Fernando Díaz Martín| |Facultad de Ingeniería|fernando.diaz@deusto.es|2810| | |540|false
-José Gaviria de la Puerta| |Tecnológico Fundación Deusto (Bilbao)|jgaviria@deusto.es|2021| | |DeustoTech Computing|true
+Jon Legarda Macon| |Tecnológico Fundación Deusto (Bilbao)|jlegarda@deusto.es|9078| | |DeustoTech - Planta 7|true
+Jonatan Ruiz de Garibay Pascual| |Facultad de Ingeniería|jonathan.garibay@deusto.es|9797-9087| | |E690|false
+José Emilio Rodríguez Seco| |Facultad de Ingeniería|joseemilio.rodriguez@deusto.es|9797| | |Sala profesores, edificio ESIDE|false
+José Félix García García| |Facultad de Ingeniería|jfgarcia@deusto.es|9797|609 700 607| |Sala profesores|false
+José Fernando Díaz Martín| |Facultad de Ingeniería|fernando.diaz@deusto.es|9800| | |670|false
+José Gaviria de la Puerta| |Tecnológico Fundación Deusto (Bilbao)|jgaviria@deusto.es|9090| | |DeustoTech Computing|true
 José Ignacio Aguirre Rodilla| |Facultad de Ingeniería|joseignacio.aguirre@deusto.es| | | | |false
-José Ignacio García Quintanilla| |Facultad de Ingeniería|jigarcia@deusto.es|2819| | |D-569|false
-José Ignacio Varela Legarreta| |Facultad de Ingeniería|ivarela@deusto.es|2724| | |Sala profesores|false
-José Luis del Val Román| |Facultad de Ingeniería|joseluis.delval@deusto.es|2529|944 13 93 29| |543|false
-José Luis Gutiérrez Temiño| |Facultad de Ingeniería|joseluis.gutierrez@deusto.es|2413|944 13 92 13| |550-D|false
-José Luis Resines Plaza| |Facultad de Ingeniería|joseluis.resines@deusto.es|2724| | |Sala de profesores|false
-José María Guibert Ucin| |Facultad de Ingeniería|guibert@deusto.es|2271|944 139 071| |Decanato Ingeniería|false
-José Pérez Larrazabal| |Facultad de Ingeniería|joperez@deusto.es| |605 73 51 22| |510|false
-José Ramón Calonge Balza| |Facultad de Ingeniería|joseramon.calonge@deusto.es|2677| | |538|false
-Juan Ignacio Larrauri Villamor| |Facultad de Ingeniería|ilarrau@deusto.es|2652| | |589-D|false
-Juan Ignacio Vázquez Gómez|Director del Departamento de Ingeniería Informática y Departamento de Telecomunicaciones|Facultad de Ingeniería|ivazquez@deusto.es|2818| | |585-D, 5ª planta, Edificio Ingenieria. DeustoKabi, 4ª planta Edificio Ingenieria.|false
-Juan José Gude Prego| |Facultad de Ingeniería|jgude@deusto.es|2817-2858| | |522-Lab011|false
-Juan Manuel López Garde| |Facultad de Ingeniería|jmlopez@deusto.es|2936-2794| | |D-533 - DEUSTOTECH TELECOM|true
-Juan Manuel Pedrero Íñiguez| |Facultad de Ingeniería|juanmanuel.pedrero@deusto.es|2724| | |Sala de Profesores|false
-Julián Hernández Mateos| |Facultad de Ingeniería|jhernand@deusto.es|2751| | |532|false
-Julio Manuel Revilla Ocejo| |Facultad de Ingeniería|jrevilla@deusto.es|2815| | |566|false
+José Ignacio García Quintanilla| |Facultad de Ingeniería|jigarcia@deusto.es|9809| | |D-669|false
+José Ignacio Varela Legarreta| |Facultad de Ingeniería|ivarela@deusto.es|9797| | |Sala profesores|false
+José Luis del Val Román| |Facultad de Ingeniería|joseluis.delval@deusto.es|9699|977 08 98 99| |678|false
+José Luis Gutiérrez Temiño| |Facultad de Ingeniería|joseluis.gutierrez@deusto.es|9708|977 08 99 08| |660-D|false
+José Luis Resines Plaza| |Facultad de Ingeniería|joseluis.resines@deusto.es|9797| | |Sala de profesores|false
+José María Guibert Ucin| |Facultad de Ingeniería|guibert@deusto.es|9970|977 089 070| |Decanato Ingeniería|false
+José Pérez Larrazabal| |Facultad de Ingeniería|joperez@deusto.es| |606 78 60 99| |600|false
+José Ramón Calonge Balza| |Facultad de Ingeniería|joseramon.calonge@deusto.es|9677| | |688|false
+Juan Ignacio Larrauri Villamor| |Facultad de Ingeniería|ilarrau@deusto.es|9669| | |689-D|false
+Juan Ignacio Vázquez Gómez|Director del Departamento de Ingeniería Informática y Departamento de Telecomunicaciones|Facultad de Ingeniería|ivazquez@deusto.es|9808| | |686-D, 6ª planta, Edificio Ingenieria. DeustoKabi, 7ª planta Edificio Ingenieria.|false
+Juan José Gude Prego| |Facultad de Ingeniería|jgude@deusto.es|9807-9868| | |699-Lab000|false
+Juan Manuel López Garde| |Facultad de Ingeniería|jmlopez@deusto.es|9986-9797| | |D-688 - DEUSTOTECH TELECOM|true
+Juan Manuel Pedrero Íñiguez| |Facultad de Ingeniería|juanmanuel.pedrero@deusto.es|9797| | |Sala de Profesores|false
+Julián Hernández Mateos| |Facultad de Ingeniería|jhernand@deusto.es|9760| | |689|false
+Julio Manuel Revilla Ocejo| |Facultad de Ingeniería|jrevilla@deusto.es|9806| | |666|false
 Kebor Montes Palacios| |Facultad de Ingeniería| | | | | |false
-Koldobika Zabaleta Fernández| |Tecnológico Fundación Deusto (Bilbao)|koldo.zabaleta@deusto.es|3033| | |Deustotech - Internet|true
-Larraitz Elorriaga Berasaluce| |Facultad de Ingeniería|larraitzelorriaga@deusto.es|2611|944 13 94 11| |Oficina de Comunicación- Decanato Ingeniería. 3ªplanta Edificio ESIDE|false
-Leire Bereziartua González| |Facultad de Ingeniería|leire.bereziartua@deusto.es|6236| | |Deusto FabLab|false
+Koldobika Zabaleta Fernández| |Tecnológico Fundación Deusto (Bilbao)|koldo.zabaleta@deusto.es|8088| | |Deustotech - Internet|true
+Larraitz Elorriaga Berasaluce| |Facultad de Ingeniería|larraitzelorriaga@deusto.es|9600|977 08 97 00| |Oficina de Comunicación- Decanato Ingeniería. 8ªplanta Edificio ESIDE|false
+Leire Bereziartua González| |Facultad de Ingeniería|leire.bereziartua@deusto.es|6986| | |Deusto FabLab|false
 Leire García Rodríguez| |Facultad de Ingeniería| | | | | |false
-Leyre Gutiérrez Barrenengoa| |Facultad de Ingeniería|leire.gutierrez@deusto.es|2681| | |559-E o Deustotech|true
+Leyre Gutiérrez Barrenengoa| |Facultad de Ingeniería|leire.gutierrez@deusto.es|9680| | |669-E o Deustotech|true
 Lorea Argarate Zubia| |Facultad de Ingeniería| | | | | |false
 Maider Ibarra Ariño| |Facultad de Ingeniería| | | | | |false
-Marcelo Javier Leslabay Martínez| |Facultad de Ingeniería|leslabay@deusto.es|2813| | |524|false
+Marcelo Javier Leslabay Martínez| |Facultad de Ingeniería|leslabay@deusto.es|9808| | |697|false
 María Aldama Notario| |Facultad de Ingeniería| | | | | |false
-María Asunción Barredo Fuentes| |Facultad de Ingeniería|asuncion.barredo@deusto.es|2391-2149|944 13 91 91| |544D|false
-María Begoña García-Zapirain Soto| |Facultad de Ingeniería|mbgarciazapi@deusto.es|2798-2599| | |590|false
-María del Rosario de Godos Álvarez| |Facultad de Ingeniería|charo.godos@deusto.es|2388|944 13 91 88| |534-D|false
-María Isabel Muñoz San Ildefonso| |Facultad de Ingeniería|m.isabel.munoz@deusto.es|2356|944 13 91 56| | |false
-María José Gil Larrea| |Facultad de Ingeniería|mariajose.gil@deusto.es|2332-5646|944 13 91 32| |D-545|false
-María Luz Guenaga Gómez| |Facultad de Ingeniería|mlguenaga@deusto.es|2808| | |Facultad de Ingeniería - ESIDE. Despacho 519-D|false
-María Teresa Sánchez Santisteban|Decanato|Facultad de Ingeniería|maite.sanchez@deusto.es|2744| | |Decanato Ingeniería|false
-Mariano Martín Tello| |Facultad de Ingeniería|mariano.martin@deusto.es| |944 75 33 96-618 71 50 66| |Sala de Profesores|false
+María Asunción Barredo Fuentes| |Facultad de Ingeniería|asuncion.barredo@deusto.es|9890-9079|977 08 90 90| |677D|false
+María Begoña García-Zapirain Soto| |Facultad de Ingeniería|mbgarciazapi@deusto.es|9798-9699| | |690|false
+María del Rosario de Godos Álvarez| |Facultad de Ingeniería|charo.godos@deusto.es|9888|977 08 90 88| |687-D|false
+María Isabel Muñoz San Ildefonso| |Facultad de Ingeniería|m.isabel.munoz@deusto.es|9866|977 08 90 66| | |false
+María José Gil Larrea| |Facultad de Ingeniería|mariajose.gil@deusto.es|9889-6676|977 08 90 89| |D-676|false
+María Luz Guenaga Gómez| |Facultad de Ingeniería|mlguenaga@deusto.es|9808| | |Facultad de Ingeniería - ESIDE. Despacho 609-D|false
+María Teresa Sánchez Santisteban|Decanato|Facultad de Ingeniería|maite.sanchez@deusto.es|9777| | |Decanato Ingeniería|false
+Mariano Martín Tello| |Facultad de Ingeniería|mariano.martin@deusto.es| |977 76 88 96-608 70 60 66| |Sala de Profesores|false
 Mikel Coronado Arana| |Facultad de Ingeniería| | | | | |false
 Mikel Fernández Villa| |Facultad de Ingeniería| | | | | |false
-Mikel Uribe Moreno| |Facultad de Ingeniería|mikeluribe@deusto.es|2724| | |Sala profesores|false
-Mónica Elices Zabala| |Facultad de Ingeniería|monica.elices@deusto.es| |2927| |521 D|false
-Nekane Ione Sáinz Bedoya| |Facultad de Ingeniería|nekane.sainz@deusto.es|2534| | |E-530|false
+Mikel Uribe Moreno| |Facultad de Ingeniería|mikeluribe@deusto.es|9797| | |Sala profesores|false
+Mónica Elices Zabala| |Facultad de Ingeniería|monica.elices@deusto.es| |9997| |690 D|false
+Nekane Ione Sáinz Bedoya| |Facultad de Ingeniería|nekane.sainz@deusto.es|9687| | |E-680|false
 Nerea Leguinazabal Romero| |Facultad de Ingeniería| | | | | |false
-Nerea Pozo Pazos| |Facultad de Ingeniería|nerea.pozo@deusto.es|2105| | |Oficina de Comunicación- Decanato Ingeniería. 3ªplanta Edificio ESIDE|false
-Oihane Kamara Esteban| |UD-Tecnológico Deusto|oihane.esteban@deusto.es|2052| | |DeustoTech Energy|true
+Nerea Pozo Pazos| |Facultad de Ingeniería|nerea.pozo@deusto.es|9006| | |Oficina de Comunicación- Decanato Ingeniería. 8ªplanta Edificio ESIDE|false
+Oihane Kamara Esteban| |UD-Tecnológico Deusto|oihane.esteban@deusto.es|9069| | |DeustoTech Energy|true
 Oihane Zarate González| |Facultad de Ingeniería|oihanezarate@deusto.es| | | | |false
-Olatz Ukar Arrien| |Facultad de Ingeniería|olatz.ukar@deusto.es|2683| | |561|false
-Olga Dziabenko| |Facultad de Ingeniería|olga.dziabenko@deusto.es|2047| | |Deustotech|true
-Pablo Fernández Muga| |Tecnológico Fundación Deusto (Bilbao)|pablo.fernandez@deusto.es|2050| | |Laboratorio Mobility, DeustoTech|true
-Pablo Garaizar Sagarminaga| |Facultad de Ingeniería|garaizar@deusto.es|2512| | |539-D|false
-Pablo García Bringas| |Facultad de Ingeniería|pablo.garcia.bringas@deusto.es|2430-2911|944 139 230| |DeustoTech Computing, S3Lab, D4K|true
+Olatz Ukar Arrien| |Facultad de Ingeniería|olatz.ukar@deusto.es|9688| | |660|false
+Olga Dziabenko| |Facultad de Ingeniería|olga.dziabenko@deusto.es|9077| | |Deustotech|true
+Pablo Fernández Muga| |Tecnológico Fundación Deusto (Bilbao)|pablo.fernandez@deusto.es|9060| | |Laboratorio Mobility, DeustoTech|true
+Pablo Garaizar Sagarminaga| |Facultad de Ingeniería|garaizar@deusto.es|9609| | |689-D|false
+Pablo García Bringas| |Facultad de Ingeniería|pablo.garcia.bringas@deusto.es|9780-9900|977 089 980| |DeustoTech Computing, S8Lab, D7K|true
 Pablo Martín García| |Facultad de Ingeniería| | | | | |false
 Pablo Sixto Cesteros| |Facultad de Ingeniería| | | | | |false
-Pedro Manuel Sasia Santos| |Facultad de Ingeniería|peru.sasia@deusto.es|2094|609 43 84 40| |526D|false
-Rafael Meseguer Tapiz|Gerente|Facultad de Ingeniería|rafael.meseguer@deusto.es|2511|944 139 311| | |false
-Rebeca Cortazar Goicoechea|Vicedecana de Profesorado e Investigación|Facultad de Ingeniería|rebeca.cortazar@deusto.es|2723|944 13 90 03| |Decanato de Ingeniería|false
-Roberto Carballedo Morillo| |Facultad de Ingeniería|roberto.carballedo@deusto.es|2957| | |E-529|false
-Roberto Ramos Ramos| |Facultad de Ingeniería|roberto.ramos@deusto.es|2724| | |Sala profesores|false
-Rodrigo Martínez Rodríguez| |Facultad de Ingeniería|rodrigo.martinez@deusto.es| | | |557|false
-Sergio Huerta Lara| |Tecnológico Fundación Deusto (Bilbao)|shuerta@deusto.es|2040| | |DeustoTech Computing. Edificio Eside, 4ª planta.|true
+Pedro Manuel Sasia Santos| |Facultad de Ingeniería|peru.sasia@deusto.es|9097|609 78 87 70| |696D|false
+Rafael Meseguer Tapiz|Gerente|Facultad de Ingeniería|rafael.meseguer@deusto.es|9600|977 089 800| | |false
+Rebeca Cortazar Goicoechea|Vicedecana de Profesorado e Investigación|Facultad de Ingeniería|rebeca.cortazar@deusto.es|9798|977 08 90 08| |Decanato de Ingeniería|false
+Roberto Carballedo Morillo| |Facultad de Ingeniería|roberto.carballedo@deusto.es|9967| | |E-699|false
+Roberto Ramos Ramos| |Facultad de Ingeniería|roberto.ramos@deusto.es|9797| | |Sala profesores|false
+Rodrigo Martínez Rodríguez| |Facultad de Ingeniería|rodrigo.martinez@deusto.es| | | |667|false
+Sergio Huerta Lara| |Tecnológico Fundación Deusto (Bilbao)|shuerta@deusto.es|9070| | |DeustoTech Computing. Edificio Eside, 7ª planta.|true
 Suhar Txabarri Aurrekoetxea| |Facultad de Ingeniería| | | | | |false
 Susana Gutiérrez del Pozo| |Facultad de Ingeniería| | | | | |false
-Susana Pérez Ruiz| |Facultad de Ingeniería|susana.perez.ruiz@deusto.es|2959|944139219| |Decanato Ingeniería|false
-Susana Romero Yesa| |Facultad de Ingeniería|sromeroyesa@deusto.es|2692| | |Laboratorio 112|false
-Szilard Kados| |Facultad de Ingeniería|szilard.kados@deusto.es|6243|683 65 22 16| |FABLAB|false
+Susana Pérez Ruiz| |Facultad de Ingeniería|susana.perez.ruiz@deusto.es|9969|977089909| |Decanato Ingeniería|false
+Susana Romero Yesa| |Facultad de Ingeniería|sromeroyesa@deusto.es|9699| | |Laboratorio 009|false
+Szilard Kados| |Facultad de Ingeniería|szilard.kados@deusto.es|6978|688 66 99 06| |FABLAB|false
 Unai Bermejo Fernández| |Facultad de Ingeniería| | | | | |false
-Unai Hernández Jayo| |Facultad de Ingeniería|unai.hernandez@deusto.es|2013-2050| | |531-D|false
-Verónica Canivell Castillo| |Facultad de Ingeniería|veronica.canivell@deusto.es|2395|944 13 91 95| |Decanato|false
-Vicente Núñez Molina| |Facultad de Ingeniería|bixen.nunez@deusto.es|2724| | |Sala profesores|false
-Zuriñe Aguilera Rodríguez| |Facultad de Ingeniería|zurine.aguilera@deusto.es|2060| | | |false
+Unai Hernández Jayo| |Facultad de Ingeniería|unai.hernandez@deusto.es|9008-9060| | |680-D|false
+Verónica Canivell Castillo| |Facultad de Ingeniería|veronica.canivell@deusto.es|9896|977 08 90 96| |Decanato|false
+Vicente Núñez Molina| |Facultad de Ingeniería|bixen.nunez@deusto.es|9797| | |Sala profesores|false
+Zuriñe Aguilera Rodríguez| |Facultad de Ingeniería|zurine.aguilera@deusto.es|9060| | | |false
 Ainhoa Achon Irastorza| |Tecnológico Fundación Deusto (Bilbao)|a.achon@deusto.es| | | | |true
-Ainhoa Alonso Vicario| |Tecnológico Fundación Deusto (Bilbao)|ainhoa.alonso@deusto.es|2054| | |Laboratorio eNergía|true
-Aitor Almeida Escondrillas| |Tecnológico Fundación Deusto (Bilbao)|aitor.almeida@deusto.es|3034| | |DeustoTech (frente al despacho D9)|true
+Ainhoa Alonso Vicario| |Tecnológico Fundación Deusto (Bilbao)|ainhoa.alonso@deusto.es|9067| | |Laboratorio eNergía|true
+Aitor Almeida Escondrillas| |Tecnológico Fundación Deusto (Bilbao)|aitor.almeida@deusto.es|8087| | |DeustoTech (frente al despacho D9)|true
 Alfonso Bahillo Martínez| |UD-Tecnológico Deusto|alfonso.bahillo@deusto.es| | | | |true
-Álvaro Hermida de Castro Gil| |Tecnológico Fundación Deusto (Bilbao)|alvaro.hermida@deusto.es|2451|944 139 073| | |true
-Álvaro Javier Muro de la Herrán| |Tecnológico Fundación Deusto (Bilbao)|alvaro.muro@deusto.es|3035| | |E-Vida DeustoTech|true
+Álvaro Hermida de Castro Gil| |Tecnológico Fundación Deusto (Bilbao)|alvaro.hermida@deusto.es|9760|977 089 078| | |true
+Álvaro Javier Muro de la Herrán| |Tecnológico Fundación Deusto (Bilbao)|alvaro.muro@deusto.es|8086| | |E-Vida DeustoTech|true
 Álvaro Sarachaga Gordo| |UD-Tecnológico Deusto| | | | | |true
 Amaia Omar López| |UD-Tecnológico Deusto| | | | | |true
 Ander González Moro| |Tecnológico Fundación Deusto (Bilbao)|anderg@deusto.es| | | | |true
 Anne Miren Irizar Arrieta| |UD-Tecnológico Deusto|ane.irizar@deusto.es| | | | |true
 Aritz Badiola Bengoa| |UD-Tecnológico Deusto| | | | | |true
-Aritz Bilbao Jayo| |Tecnológico Fundación Deusto (Bilbao)|aritzbilbao@deusto.es|3034| | | |true
+Aritz Bilbao Jayo| |Tecnológico Fundación Deusto (Bilbao)|aritzbilbao@deusto.es|8087| | | |true
 Aritz Madariaga Gómez| |Tecnológico Fundación Deusto (Bilbao)|aritzmadariaga@deusto.es| | | | |true
 Asier Gutiérrez Fandiño| |Tecnológico Fundación Deusto (Bilbao)|asierguti@deusto.es| | | | |true
 Asier Horas Fano| |UD-Tecnológico Deusto| | | | | |true
-Asier Moreno Emborujo| |Tecnológico Fundación Deusto (Bilbao)|asier.moreno@deusto.es|2050| | | |true
+Asier Moreno Emborujo| |Tecnológico Fundación Deusto (Bilbao)|asier.moreno@deusto.es|9060| | | |true
 Borja Jesús Peñafiel Ibarra| |Tecnológico Fundación Deusto (Bilbao)|borja.penafiel@deusto.es| | | | |true
 Borja Manso Tolin| |Tecnológico Fundación Deusto (Bilbao)|borja.manso@deusto.es| | | | |true
-Borja Sanz Urquijo| |Tecnológico Fundación Deusto (Bilbao)|borja.sanz@deusto.es|2044| | |DeustoTech Computing|true
+Borja Sanz Urquijo| |Tecnológico Fundación Deusto (Bilbao)|borja.sanz@deusto.es|9077| | |DeustoTech Computing|true
 Bruno Santamaría Palencia| |UD-Tecnológico Deusto|brusapa@deusto.es| | | | |true
-César Sánchez Yoldi| |Tecnológico Fundación Deusto (Bilbao)|cesar.sanchez@deusto.es|2053-6277| | |DeustoTech - Planta 4, D5|true
+César Sánchez Yoldi| |Tecnológico Fundación Deusto (Bilbao)|cesar.sanchez@deusto.es|9068-6977| | |DeustoTech - Planta 7, D6|true
 Christian Carballo Lozano| |Tecnológico Fundación Deusto (Bilbao)|christian.carballo@deusto.es| | | |DeustoTech-ENERGY|true
 Cristina Martín Andonegui| |Tecnológico Fundación Deusto (Bilbao)|cristina.andonegui@deusto.es| | | | |true
-Cruz Enrique Borges Hernández| |Tecnológico Fundación Deusto (Bilbao)|cruz.borges@deusto.es|2052| | |Laboratorio Energy|true
-Diego Casado Mansilla| |UD-Tecnológico Deusto|dcasado@deusto.es|2977|657 08 96 18| |DeustoTech-INTERNET|true
+Cruz Enrique Borges Hernández| |Tecnológico Fundación Deusto (Bilbao)|cruz.borges@deusto.es|9069| | |Laboratorio Energy|true
+Diego Casado Mansilla| |UD-Tecnológico Deusto|dcasado@deusto.es|9977|667 08 96 08| |DeustoTech-INTERNET|true
 Eneko Osaba Icedo| |UD-Tecnológico Deusto|e.osaba@deusto.es| | | | |true
 Enrique Sanz Yagüe| |UD-Tecnológico Deusto|enrique.sanz@deusto.es| | | | |true
 Enrique Zuazua Iriondo| |Tecnológico Fundación Deusto (Bilbao)|enrique.zuazua@deusto.es| | | | |true
-Estibaliz Crespo Acillona| |UD-Tecnológico Deusto|estibaliz.crespo@deusto.es|3035| | |DeustoTech Life|true
-Fernando Jorge Hernández| |UD-Tecnológico Deusto|fernandojorge@deusto.es|2051| | |DeustoTech LIFE|true
+Estibaliz Crespo Acillona| |UD-Tecnológico Deusto|estibaliz.crespo@deusto.es|8086| | |DeustoTech Life|true
+Fernando Jorge Hernández| |UD-Tecnológico Deusto|fernandojorge@deusto.es|9060| | |DeustoTech LIFE|true
 Gaizka Virumbrales Méndez| |Tecnológico Fundación Deusto (Bilbao)| | | | | |true
 Gorka Gallo Bustinza| |Tecnológico Fundación Deusto (Bilbao)|gorka.gallo@deusto.es| | | | |true
 Gorka Yanguas Serrano| |UD-Tecnológico Deusto| | | | | |true
 Guillermo Ochoa de Alda Martín| |UD-Tecnológico Deusto| | | | | |true
 Hugo Landaluce Simón| |UD-Tecnológico Deusto|hlandaluce@deusto.es| | | | |true
-Iker Martín Urbieta| |Tecnológico Fundación Deusto (Bilbao)|iker.martin@deusto.es|2008|944 13 90 73| |Deustotech (edificio ESIDE)|true
-Iker Pastor López| |Tecnológico Fundación Deusto (Bilbao)|iker.pastor@deusto.es|2043| | | |true
+Iker Martín Urbieta| |Tecnológico Fundación Deusto (Bilbao)|iker.martin@deusto.es|9008|977 08 90 78| |Deustotech (edificio ESIDE)|true
+Iker Pastor López| |Tecnológico Fundación Deusto (Bilbao)|iker.pastor@deusto.es|9078| | | |true
 Iñigo Alonso de las Fuentes| |UD-Tecnológico Deusto| | | | | |true
 Iñigo Borja Alonso González| |Tecnológico Fundación Deusto (Bilbao)|inigoalonso@deusto.es| | | | |true
 Iñigo García García| |UD-Tecnológico Deusto|inigarcia@deusto.es| | | | |true
 Iraia Oribe García| |Tecnológico Fundación Deusto (Bilbao)|iraia.oribe@deusto.es| | | | |true
 Irene Díez Franco| |Tecnológico Fundación Deusto (Bilbao)|irene.diez@deusto.es| | | | |true
-Itziar Salaberria Larrauri| |Tecnológico Fundación Deusto (Bilbao)|itziar.salaberria@deusto.es|2050| | | |true
+Itziar Salaberria Larrauri| |Tecnológico Fundación Deusto (Bilbao)|itziar.salaberria@deusto.es|9060| | | |true
 Ivan Barquero Gómez| |UD-Tecnológico Deusto|ivan.barquero@deusto.es| | | | |true
-Ivan Pretel García| |UD-Tecnológico Deusto|ivan.pretel@deusto.es|2977| | |Edificio ESIDE 4ªPlanta - DeustoTech Internet|true
-Javier Martín Uria| |Tecnológico Fundación Deusto (Bilbao)|javier.martinuria@deusto.es|3282| | | |true
+Ivan Pretel García| |UD-Tecnológico Deusto|ivan.pretel@deusto.es|9977| | |Edificio ESIDE 7ªPlanta - DeustoTech Internet|true
+Javier Martín Uria| |Tecnológico Fundación Deusto (Bilbao)|javier.martinuria@deusto.es|8989| | | |true
 Jerome Loheac| |Tecnológico Fundación Deusto (Bilbao)| | | | | |true
 Jon Iturmendi González| |Tecnológico Fundación Deusto (Bilbao)| | | | | |true
 Jon Otegui Arruti| |Tecnológico Fundación Deusto (Bilbao)|jon.otegui@deusto.es| | | | |true
@@ -200,10 +200,10 @@ Juan Alejo Vázquez Pardavila| |UD-Tecnológico Deusto|alejo.vazquez@deusto.es| 
 Juan Sixto Cesteros| |Tecnológico Fundación Deusto (Bilbao)|jsixto@deusto.es| | | | |true
 Kevin Cifuentes Salas| |UD-Tecnológico Deusto|kevincifuentes@deusto.es| | | | |true
 Leire López Samaniego| |UD-Tecnológico Deusto| | | | | |true
-Leire Serrano Olabarri| |Tecnológico Fundación Deusto (Bilbao)|leire.serrano@deusto.es|2050| | | |true
-Leticia Aulestiarte Echebarrena| |Tecnológico Fundación Deusto (Bilbao)|leticia.aulestiarte@deusto.es|2273| | | |true
-María Pilar Elejoste Larrucea| |Tecnológico Fundación Deusto (Bilbao)|pilar.elejoste@deusto.es|2497|944 13 90 03| |Edificio ESIDE. 4º piso. Despacho D3. Deustotech Unidad Mobility|true
-Mikel Emaldi Manrique| |Tecnológico Fundación Deusto (Bilbao)|m.emaldi@deusto.es|3034| | |DeustoTech Internet|true
+Leire Serrano Olabarri| |Tecnológico Fundación Deusto (Bilbao)|leire.serrano@deusto.es|9060| | | |true
+Leticia Aulestiarte Echebarrena| |Tecnológico Fundación Deusto (Bilbao)|leticia.aulestiarte@deusto.es|9978| | | |true
+María Pilar Elejoste Larrucea| |Tecnológico Fundación Deusto (Bilbao)|pilar.elejoste@deusto.es|9797|977 08 90 08| |Edificio ESIDE. 7º piso. Despacho D8. Deustotech Unidad Mobility|true
+Mikel Emaldi Manrique| |Tecnológico Fundación Deusto (Bilbao)|m.emaldi@deusto.es|8087| | |DeustoTech Internet|true
 Mikel Solabarrieta Román| |Tecnológico Fundación Deusto (Bilbao)| | | | | |true
 Miren Lourdes Arretxe Zamakona| |Tecnológico Fundación Deusto (Bilbao)|miren.arretxe@deusto.es| | | | |true
 MªVirginia Vargas Viedma| |Tecnológico Fundación Deusto (Bilbao)|virginia.vargas@deusto.es| | | | |true
@@ -212,14 +212,14 @@ Oier Ajenjo de Torres| |UD-Tecnológico Deusto| | | | | |true
 Ornella Bardhi| |UD-Tecnológico Deusto|ornela.bardhi@deusto.es| | | | |true
 Óscar Llorente Vázquez| |Tecnológico Fundación Deusto (Bilbao)|oscar.llorente@deusto.es| | | | |true
 Pablo Asensi Blanco| |UD-Tecnológico Deusto| | | | | |true
-Pablo Orduña Fernández| |Tecnológico Fundación Deusto (Bilbao)|pablo.orduna@deusto.es|3034|652 711 473| |DeustoTech - Internet (4ª planta Facultad Ingeniería)|true
+Pablo Orduña Fernández| |Tecnológico Fundación Deusto (Bilbao)|pablo.orduna@deusto.es|8087|669 700 778| |DeustoTech - Internet (7ª planta Facultad Ingeniería)|true
 Paula Sánchez Jardon| |UD-Tecnológico Deusto|paula.sanchez@deusto.es| | | | |true
 Pedro López García| |UD-Tecnológico Deusto|pedro.lpzgrc@deusto.es| | | | |true
-Ricardo Martín González| |Tecnológico Fundación Deusto (Bilbao)|ricardo.martin@deusto.es|3176|944139003| |Administración DeustoTech|true
+Ricardo Martín González| |Tecnológico Fundación Deusto (Bilbao)|ricardo.martin@deusto.es|8076|977089008| |Administración DeustoTech|true
 Rubén Mulero Martínez| |UD-Tecnológico Deusto|ruben.mulero@deusto.es| | | | |true
 Rubén Sánchez Corcuera| |Tecnológico Fundación Deusto (Bilbao)| | | | | |true
 Saúl Segura Ceballos| |UD-Tecnológico Deusto| | | | | |true
 Tania Lorido Botran| |Tecnológico Fundación Deusto (Bilbao)|tania.lorido@deusto.es| | | | |true
-Unai Aguilera Irazabal| |Tecnológico Fundación Deusto (Bilbao)|unai.aguilera@deusto.es|3034| | |DeustoTech - 4º Planta Facultad de Ingeniería|true
+Unai Aguilera Irazabal| |Tecnológico Fundación Deusto (Bilbao)|unai.aguilera@deusto.es|8087| | |DeustoTech - 7º Planta Facultad de Ingeniería|true
 Unai Zulaika Zurimendi| |Tecnológico Fundación Deusto (Bilbao)| | | | | |true
-Xabier Cantero López| |Tecnológico Fundación Deusto (Bilbao)|xabier.cantero@deusto.es|2046| | |DeustoTech Computing - ESIDE|true
+Xabier Cantero López| |Tecnológico Fundación Deusto (Bilbao)|xabier.cantero@deusto.es|9076| | |DeustoTech Computing - ESIDE|true
