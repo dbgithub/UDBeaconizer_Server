@@ -1,0 +1,10 @@
+_replicator/
+_users/
+config.json
+log.txt
+nohup_errors_log.txt
+pouch__all_dbs__/
+beaconsdb/
+staffdb/
+roomsdb/
+changesd/
