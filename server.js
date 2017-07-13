@@ -23,6 +23,7 @@ function start(port) {
 	app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 	app.use('/maps', express.static('data/img'));
+	app.use('/policy', express.static('policy'));
 
 	app.get('/', function (req, res) {
 		console.log("HelloWorld!");
